@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/review_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background2"
+    android:layout_margin="8dp"
+    android:padding="8dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="start"
+        android:text="@string/prompt_review_message"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/never_review_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/FlatButton"
+            android:text="@string/never_ask"/>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/later_review_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/FlatButton"
+            android:text="@string/maybe_later"/>
+
+        <Button
+            android:id="@+id/yes_review_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/FlatButton"
+            android:text="@string/yes"/>
+
+    </LinearLayout>
+</LinearLayout>

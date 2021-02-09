@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/video_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                tools:layout_height="120dp"
+                tools:src="@drawable/advanced_civilization" />
+
+            <TextView
+                android:id="@+id/duration_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/duration_background"
+                android:paddingStart="4dp"
+                android:paddingEnd="4dp"
+                android:textColor="@color/primaryTextColor"
+                tools:text="12:42" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/video_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="3"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="14sp"
+                tools:text="Dice Tower: Ticket to Ride" />
+
+            <TextView
+                android:id="@+id/channel_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textColor="@color/secondaryTextColor"
+                android:textSize="14sp"
+                tools:text="Dice Tower" />
+
+            <TextView
+                android:id="@+id/total_views"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:textColor="@color/secondaryTextColor"
+                android:textSize="14sp"
+                tools:text="18k views" />
+            <!--tools:text="Dice Tower &#8226; 3600 views &#8226; 2019-02-04" />-->
+
+        </LinearLayout>
+    </LinearLayout>
+</layout>

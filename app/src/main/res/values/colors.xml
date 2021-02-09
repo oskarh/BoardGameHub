@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="softBlack">#121212</color>
+    <color name="backgroundColor">@color/colorPrimary</color>
+<!--    <color name="backgroundColor">@color/spacex_primary_dark</color>-->
+    <color name="secondaryBackgroundColor">@color/spacex_secondary_dark</color>
+    <color name="darkBackgroundColor">@android:color/black</color>
+    <color name="backgroundLight">@color/primary0</color>
+    <color name="backgroundLightTransparent">@color/primary0_transparent</color>
+
+<!--    // TODO: Choose a color, clean everything up-->
+    <color name="background2">#323232</color>
+    <color name="background3">#272727</color>
+    <color name="background4">#222222</color>
+    <color name="background5">#1C1C1C</color>
+
+    <color name="chipBackground">#3E3E3E</color>
+
+    <color name="colorPrimary">@color/primary0</color>
+    <color name="colorPrimaryDark">@color/primary_dark0</color>
+    <color name="colorAccent">@color/accent0</color>
+    <color name="colorAccentTransparent">#60FFCA28</color>
+    <color name="primaryTextColor">@android:color/white</color>
+    <color name="accentTextColor">@android:color/black</color>
+    <color name="secondaryTextColor">#9E9E9E</color>
+    <color name="secondaryTextColorOld">#AAFFFFFF</color>
+    <color name="errorTextColor">@android:color/holo_red_dark</color>
+<!--008577-->
+    <color name="primaryColor">@color/primary0</color>
+    <color name="primaryLightColor">@android:color/holo_orange_dark</color>
+    <color name="primaryDarkColor">@android:color/holo_orange_dark</color>
+    <!--<color name="primaryTextColor">@android:color/holo_green_dark</color>-->
+    <!--<color name="colorPrimary">#4870a0</color>-->
+    <!--<color name="colorPrimaryDark">#FF4571</color>-->
+    <!--<color name="colorAccent">#bbbbbb</color>-->
+
+    <!--colorPrimary      21272B-->
+    <!--colorPrimaryDark  181C1F-->
+    <!--yellow -          FFD54F (colorAccent)-->
+    <!--red -             FF4444-->
+
+    <color name="lightGray">#C9C9C9</color>
+    <color name="darkGray">#898C90</color>
+    <color name="darkGrayDisabled">#88898C90</color>
+    <color name="disabledText">#32003287</color>
+
+    <color name="transparentBackground">#70000000</color>
+
+    <!--<color name="primaryColor">#4870a0</color>-->
+    <!--<color name="primaryLightColor">#799ed1</color>-->
+    <!--<color name="primaryDarkColor">#994571</color>-->
+    <color name="secondaryColor">#FF5522</color>
+    <color name="secondaryLightColor">#bbffff</color>
+    <color name="secondaryDarkColor">#FF99c9</color>
+    <!--<color name="primaryTextColor">#ff55ff</color>-->
+    <!--<color name="secondaryTextColor">#550077</color>-->
+
+    <color name="primary0">#212121</color>
+    <color name="primary0_transparent">#A021272B</color>
+<!--    <color name="primary0_transparent">#70212121</color>-->
+    <color name="light_transparent">#888888</color>
+    <color name="primary1_transparent">#C0212121</color>
+    <color name="primary_dark0">#181818</color>
+    <color name="spacex_primary_dark">#181C1F</color>
+    <color name="spacex_secondary_dark">#292B2E</color>
+    <color name="spacex_accent">#FFD54F</color>
+    <color name="secondary_dark">#282828</color>
+    <!--<color name="primary_dark0">#181C1F</color>-->
+    <color name="accent0">#FFCA28</color>
+    <!--<color name="accent0">#FFC400</color>-->
+
+    <!--<color name="accent0">#FFEB3B</color>-->
+    <!--<color name="accent0">#FFD54F</color>-->
+
+<!--   SpaceX Colors -->
+<!--    21272B  -->
+<!--    181C1F  -->
+<!--    FFD54F  -->
+
+    <color name="primary1">#8bc34a</color>
+    <color name="primary_dark1">#689f38</color>
+    <color name="accent1">#7c4dff</color>
+
+    <color name="primary2">#259b24</color>
+    <color name="primary_dark2">#0a7e07</color>
+    <color name="accent2">#ffff00</color>
+
+    <color name="primary3">#e51c23</color>
+    <color name="primary_dark3">#d01716</color>
+    <color name="accent3">#ffff00</color>
+
+    <color name="primary4">#5677fc</color>
+    <color name="primary_dark4">#455ede</color>
+    <color name="accent4">#7c4dff</color>
+
+    <color name="primary5">#3f51b5</color>
+    <color name="primary_dark5">#303f9f</color>
+    <color name="accent5">#64ffda</color>
+
+    <color name="primary6">#e51c23</color>
+    <color name="primary_dark6">#d01716</color>
+    <color name="accent6">#64ffda</color>
+
+    <color name="primary7">#ff9800</color>
+    <color name="primary_dark7">#fbc02d</color>
+    <color name="accent7">#536dfe</color>
+
+    <color name="primary8">#573E33</color>
+    <color name="primary_dark8">#81646D</color>
+    <color name="custom1">#D4DF9E</color>
+    <color name="custom2">#E09F7D</color>
+    <color name="custom3">#B7C3F3</color>
+
+    <color name="best">#2ecc71</color>
+    <color name="recommended">#f1c40f</color>
+    <color name="not_recommended">#e74c3c</color>
+
+    <!-- Gray decent contrast-->
+    <!--<color name="colorPrimary">#383838</color>-->
+    <!--<color name="colorPrimaryDark">#104571</color>-->
+    <!--<color name="colorAccent">#d0c8d0</color>-->
+
+    <!--<color name="primaryColor">#4870a0</color>-->
+    <!--<color name="primaryLightColor">#799ed1</color>-->
+    <!--<color name="primaryDarkColor">#104571</color>-->
+    <!--<color name="secondaryColor">#fffcfc</color>-->
+    <!--<color name="secondaryLightColor">#ffffff</color>-->
+    <!--<color name="secondaryDarkColor">#ccc9c9</color>-->
+    <!--<color name="primaryTextColor2">#ffffff</color>-->
+    <!--<color name="primaryTextColor">#ffffff</color>-->
+    <!--<color name="secondaryTextColor">#000000</color>-->
+
+    <!-- Colors used for Material About Activity -->
+    <color name="mal_text_primary">@color/primaryTextColor</color>
+    <color name="mal_text_secondary">@color/primaryTextColor</color>
+    <color name="mal_card_title">@android:color/holo_purple</color>
+    <color name="mal_title_item_text">@color/accent2</color>
+    <color name="mal_action_item_text">@color/accent6</color>
+    <color name="mal_action_item_subtext">@color/accent7</color>
+</resources>

@@ -1,0 +1,1405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items total="355" termsofuse="https://boardgamegeek.com/xmlapi/termsofuse">
+    <item type="boardgame" id="185197">
+        <name type="primary" value="Alaska (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgame" id="184013">
+        <name type="primary" value="Alice in Wonderland (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgame" id="189445">
+        <name type="primary" value="Ancient Greece (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgame" id="185198">
+        <name type="primary" value="Ancient Sicily (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgame" id="197040">
+        <name type="primary" value="Antarctica (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgame" id="252142">
+        <name type="primary" value="Antarctica (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2018" />
+    </item>
+    <item type="boardgame" id="120034">
+        <name type="primary" value="Les Aventuriers du rail en Belgique (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2004" />
+    </item>
+    <item type="boardgame" id="108422">
+        <name type="primary" value="Les Aventuriers du rail à Lyon (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2004" />
+    </item>
+    <item type="boardgame" id="223979">
+        <name type="primary" value="Barsoom (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2017" />
+    </item>
+    <item type="boardgame" id="224473">
+        <name type="primary" value="Bay of Bengal (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2017" />
+    </item>
+    <item type="boardgame" id="211230">
+        <name type="primary" value="Belarus (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgame" id="220770">
+        <name type="primary" value="Black Sea (fan expansion of Ticket to Ride: Rails &amp; Sails)"/>
+        <yearpublished value="2017" />
+    </item>
+    <item type="boardgame" id="185200">
+        <name type="primary" value="Borneo (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgame" id="130427">
+        <name type="primary" value="Bretagne (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2006" />
+    </item>
+    <item type="boardgame" id="114528">
+        <name type="primary" value="Britain &amp; Ireland (fan expansion to Ticket To Ride: Europe)"/>
+        <yearpublished value="2011" />
+    </item>
+    <item type="boardgame" id="209430">
+        <name type="primary" value="Bulgaria (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgame" id="210647">
+        <name type="primary" value="Cambodia (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgame" id="123300">
+        <name type="primary" value="Canada (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2012" />
+    </item>
+    <item type="boardgame" id="222388">
+        <name type="primary" value="Canada 2017 (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2017" />
+    </item>
+    <item type="boardgame" id="185201">
+        <name type="primary" value="Canary Islands (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgame" id="70712">
+        <name type="primary" value="Castilla y León (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2009" />
+    </item>
+    <item type="boardgame" id="120037">
+        <name type="primary" value="Alsace (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2009" />
+    </item>
+    <item type="boardgame" id="185202">
+        <name type="primary" value="Channel Islands (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgame" id="130419">
+        <name type="primary" value="China (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2006" />
+    </item>
+    <item type="boardgame" id="186937">
+        <name type="primary" value="Corsica (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgame" id="196789">
+        <name type="primary" value="Cuba (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgame" id="130634">
+        <name type="primary" value="Cuba: Region Occidental (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2005" />
+    </item>
+    <item type="boardgame" id="209093">
+        <name type="primary" value="Cyprus (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgame" id="209680">
+        <name type="primary" value="Czech Republic (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgame" id="202082">
+        <name type="primary" value="Czech Republic (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgame" id="187440">
+        <name type="primary" value="Denmark (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgame" id="193824">
+        <name type="primary" value="Dickensian Intrigue (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgame" id="204580">
+        <name type="primary" value="East Africa (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgame" id="185204">
+        <name type="primary" value="East Indies (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgame" id="185205">
+        <name type="primary" value="Eastern Europe (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgame" id="185206">
+        <name type="primary" value="Egypt (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgame" id="129237">
+        <name type="primary" value="The Emerald City (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2013" />
+    </item>
+    <item type="boardgame" id="203135">
+        <name type="primary" value="Estonia (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgame" id="151461">
+        <name type="primary" value="Expedition: Famous Explorers – Travel Tickets and Hazard Cards"/>
+        <yearpublished value="2013" />
+    </item>
+    <item type="boardgame" id="123217">
+        <name type="primary" value="Extension France (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2005" />
+    </item>
+    <item type="boardgame" id="185207">
+        <name type="primary" value="Falkland Islands (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgame" id="198842">
+        <name type="primary" value="France (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgame" id="200052">
+        <name type="primary" value="The Grand Duchy of Luxembourg (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgame" id="189868">
+        <name type="primary" value="Greece (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgame" id="185208">
+        <name type="primary" value="Greenland (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgame" id="195926">
+        <name type="primary" value="Gulf States (Fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgame" id="184978">
+        <name type="primary" value="Hallowe&#039;en (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgame" id="192128">
+        <name type="primary" value="Hawaii (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgame" id="218288">
+        <name type="primary" value="Hispaniola (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2017" />
+    </item>
+    <item type="boardgame" id="194756">
+        <name type="primary" value="Hokkaido (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgame" id="130183">
+        <name type="primary" value="Holland (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2007" />
+    </item>
+    <item type="boardgame" id="130483">
+        <name type="primary" value="Holland Express (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2006" />
+    </item>
+    <item type="boardgame" id="185209">
+        <name type="primary" value="Hungary (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgame" id="187441">
+        <name type="primary" value="Iberia (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgame" id="185210">
+        <name type="primary" value="Iceland (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgame" id="185211">
+        <name type="primary" value="India (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgame" id="194176">
+        <name type="primary" value="Indiana (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgame" id="187442">
+        <name type="primary" value="Indochina (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgame" id="187447">
+        <name type="primary" value="Ireland (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgame" id="191856">
+        <name type="primary" value="Isle of Man (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgame" id="130399">
+        <name type="primary" value="Italy (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2006" />
+    </item>
+    <item type="boardgame" id="130484">
+        <name type="primary" value="Italy (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2006" />
+    </item>
+    <item type="boardgame" id="130485">
+        <name type="primary" value="Italy (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2005" />
+    </item>
+    <item type="boardgame" id="211712">
+        <name type="primary" value="Jamaica (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgame" id="192367">
+        <name type="primary" value="Japan (fan expansion to Ticket To Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgame" id="196782">
+        <name type="primary" value="Just the Ticket"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgame" id="127364">
+        <name type="primary" value="Komorów (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2012" />
+    </item>
+    <item type="boardgame" id="187448">
+        <name type="primary" value="Korean Peninsula (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgame" id="213959">
+        <name type="primary" value="Kosovo (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgame" id="200730">
+        <name type="primary" value="Latvia (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgame" id="207241">
+        <name type="primary" value="Liechtenstein (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgame" id="134118">
+        <name type="primary" value="Lietuva (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2010" />
+    </item>
+    <item type="boardgame" id="140727">
+        <name type="primary" value="London Underground (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2007" />
+    </item>
+    <item type="boardgame" id="210102">
+        <name type="primary" value="Macedonia (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgame" id="154440">
+        <name type="primary" value="Madagascar (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2014" />
+    </item>
+    <item type="boardgame" id="193703">
+        <name type="primary" value="Madeira (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgame" id="187449">
+        <name type="primary" value="Mars (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgame" id="208660">
+        <name type="primary" value="Mascarene Islands (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgame" id="207675">
+        <name type="primary" value="Mauritius &amp; Réunion (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgame" id="192874">
+        <name type="primary" value="Mauritius (fan expansion of Ticket to ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgame" id="219506">
+        <name type="primary" value="Mediterranean (fan expansion of Ticket to Ride Rails and Sails)"/>
+        <yearpublished value="2017" />
+    </item>
+    <item type="boardgame" id="212811">
+        <name type="primary" value="Moldova (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgame" id="212635">
+        <name type="primary" value="Montenegro (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgame" id="217666">
+        <name type="primary" value="Myanmar (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2017" />
+    </item>
+    <item type="boardgame" id="212045">
+        <name type="primary" value="Nepal (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgame" id="197697">
+        <name type="primary" value="Netherlands (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgame" id="185203">
+        <name type="primary" value="New China (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgame" id="130424">
+        <name type="primary" value="New destination tickets for TtR Europe (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2006" />
+    </item>
+    <item type="boardgame" id="187450">
+        <name type="primary" value="New York (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgame" id="185212">
+        <name type="primary" value="New Zealand (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgame" id="187451">
+        <name type="primary" value="Niagara (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgame" id="130421">
+        <name type="primary" value="North-Africa (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2006" />
+    </item>
+    <item type="boardgame" id="185213">
+        <name type="primary" value="Northamptonshire (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgame" id="192452">
+        <name type="primary" value="Ohio (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgame" id="191003">
+        <name type="primary" value="Poland (Fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgame" id="130423">
+        <name type="primary" value="Portugal (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2006" />
+    </item>
+    <item type="boardgame" id="130428">
+        <name type="primary" value="Quebec Province (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2006" />
+    </item>
+    <item type="boardgame" id="135440">
+        <name type="primary" value="Québec et l&#039;Est du Canada (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2012" />
+    </item>
+    <item type="boardgame" id="130632">
+        <name type="primary" value="Reise durch Ägypten (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2005" />
+    </item>
+    <item type="boardgame" id="208623">
+        <name type="primary" value="Rodrigues &amp; Mauritius (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgame" id="202306">
+        <name type="primary" value="Roman Italy (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgame" id="139110">
+        <name type="primary" value="România (fan expansion for Ticket to Ride: Europe)"/>
+        <yearpublished value="2012" />
+    </item>
+    <item type="boardgame" id="43117">
+        <name type="primary" value="Round Trip Ticket"/>
+        <yearpublished value="2007" />
+    </item>
+    <item type="boardgame" id="153997">
+        <name type="primary" value="Russian Empire 1912 (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2014" />
+    </item>
+    <item type="boardgame" id="208157">
+        <name type="primary" value="Réunion &amp; Mauritius (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgame" id="130422">
+        <name type="primary" value="Scandinavia (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2006" />
+    </item>
+    <item type="boardgame" id="215212">
+        <name type="primary" value="Scandinavia (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgame" id="185214">
+        <name type="primary" value="Scilly Isles (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgame" id="64262">
+        <name type="primary" value="Seattle (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2009" />
+    </item>
+    <item type="boardgame" id="206639">
+        <name type="primary" value="Serbia (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgame" id="253140">
+        <name type="primary" value="ShutterBug: Train Tickets"/>
+        <yearpublished value="2018" />
+    </item>
+    <item type="boardgame" id="185215">
+        <name type="primary" value="Slovakia (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgame" id="205628">
+        <name type="primary" value="Slovenia (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgame" id="185216">
+        <name type="primary" value="South America (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgame" id="216561">
+        <name type="primary" value="South Korea (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgame" id="159347">
+        <name type="primary" value="South-East Sweden 1925 (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2013" />
+    </item>
+    <item type="boardgame" id="192548">
+        <name type="primary" value="Sri Lanka (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgame" id="130182">
+        <name type="primary" value="Sweden (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2007" />
+    </item>
+    <item type="boardgame" id="187452">
+        <name type="primary" value="Texas (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2009" />
+    </item>
+    <item type="boardgame" id="220018">
+        <name type="primary" value="Thailand (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2017" />
+    </item>
+    <item type="boardgame" id="130398">
+        <name type="primary" value="Ticket to Finland (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2006" />
+    </item>
+    <item type="boardgame" id="218235">
+        <name type="primary" value="Ticket to Mars"/>
+        <yearpublished value="2017" />
+    </item>
+    <item type="boardgame" id="9209">
+        <name type="primary" value="Ticket to Ride"/>
+        <yearpublished value="2004" />
+    </item>
+    <item type="boardgame" id="244525">
+        <name type="primary" value="Ticket To Ride Demo"/>
+        <yearpublished value="2017" />
+    </item>
+    <item type="boardgame" id="106637">
+        <name type="primary" value="Ticket to Ride Map Collection: Volume 1 – Team Asia &amp; Legendary Asia"/>
+        <yearpublished value="2011" />
+    </item>
+    <item type="boardgame" id="106645">
+        <name type="primary" value="Ticket to Ride Map Collection: Volume 2 – India &amp; Switzerland"/>
+        <yearpublished value="2011" />
+    </item>
+    <item type="boardgame" id="131188">
+        <name type="primary" value="Ticket to Ride Map Collection: Volume 3 – The Heart of Africa"/>
+        <yearpublished value="2012" />
+    </item>
+    <item type="boardgame" id="147938">
+        <name type="primary" value="Ticket to Ride Map Collection: Volume 4 – Nederland"/>
+        <yearpublished value="2013" />
+    </item>
+    <item type="boardgame" id="182078">
+        <name type="primary" value="Ticket to Ride Map Collection: Volume 5 – United Kingdom &amp; Pennsylvania"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgame" id="233891">
+        <name type="primary" value="Ticket to Ride Map Collection: Volume 6 – France &amp; Old West"/>
+        <yearpublished value="2017" />
+    </item>
+    <item type="boardgame" id="160069">
+        <name type="primary" value="Ticket to Ride: 10th Anniversary"/>
+        <yearpublished value="2014" />
+    </item>
+    <item type="boardgame" id="89848">
+        <name type="primary" value="Ticket to Ride: Alvin &amp; Dexter"/>
+        <yearpublished value="2011" />
+    </item>
+    <item type="boardgame" id="53383">
+        <name type="primary" value="Ticket to Ride: Europa 1912"/>
+        <yearpublished value="2009" />
+    </item>
+    <item type="boardgame" id="14996">
+        <name type="primary" value="Ticket to Ride: Europe"/>
+        <yearpublished value="2005" />
+    </item>
+    <item type="boardgame" id="243684">
+        <name type="primary" value="Ticket to Ride: Europe – London/København"/>
+        <yearpublished value="2017" />
+    </item>
+    <item type="boardgame" id="218208">
+        <name type="primary" value="Ticket to Ride: First Journey (Europe)"/>
+        <yearpublished value="2017" />
+    </item>
+    <item type="boardgame" id="205125">
+        <name type="primary" value="Ticket to Ride: First Journey (U.S.)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgame" id="225244">
+        <name type="primary" value="Ticket to Ride: Germany"/>
+        <yearpublished value="2017" />
+    </item>
+    <item type="boardgame" id="13297">
+        <name type="primary" value="Ticket to Ride: Mystery Train Expansion"/>
+        <yearpublished value="2004" />
+    </item>
+    <item type="boardgame" id="21348">
+        <name type="primary" value="Ticket to Ride: Märklin"/>
+        <yearpublished value="2006" />
+    </item>
+    <item type="boardgame" id="253284">
+        <name type="primary" value="Ticket to Ride: New York"/>
+        <yearpublished value="2018" />
+    </item>
+    <item type="boardgame" id="31627">
+        <name type="primary" value="Ticket to Ride: Nordic Countries"/>
+        <yearpublished value="2007" />
+    </item>
+    <item type="boardgame" id="185306">
+        <name type="primary" value="Ticket to Ride: Orient Express"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgame" id="202670">
+        <name type="primary" value="Ticket to Ride: Rails &amp; Sails"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgame" id="30746">
+        <name type="primary" value="Ticket to Ride: Switzerland"/>
+        <yearpublished value="2007" />
+    </item>
+    <item type="boardgame" id="34127">
+        <name type="primary" value="Ticket to Ride: The Card Game"/>
+        <yearpublished value="2008" />
+    </item>
+    <item type="boardgame" id="38454">
+        <name type="primary" value="Ticket to Ride: The Dice Expansion"/>
+        <yearpublished value="2008" />
+    </item>
+    <item type="boardgame" id="24439">
+        <name type="primary" value="Ticket to Ride: USA 1910"/>
+        <yearpublished value="2006" />
+    </item>
+    <item type="boardgame" id="132792">
+        <name type="primary" value="Ticketack"/>
+        <yearpublished value="1998" />
+    </item>
+    <item type="boardgame" id="186205">
+        <name type="primary" value="Transylvania (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgame" id="190161">
+        <name type="primary" value="Turkey (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgame" id="119897">
+        <name type="primary" value="UK (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2006" />
+    </item>
+    <item type="boardgame" id="130481">
+        <name type="primary" value="UK (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2005" />
+    </item>
+    <item type="boardgame" id="130482">
+        <name type="primary" value="UK Cynical Edition (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2005" />
+    </item>
+    <item type="boardgame" id="137427">
+        <name type="primary" value="UK version 2.0 (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2009" />
+    </item>
+    <item type="boardgame" id="142110">
+        <name type="primary" value="Ukraine (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2012" />
+    </item>
+    <item type="boardgame" id="188748">
+        <name type="primary" value="Ukraine (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgame" id="115070">
+        <name type="primary" value="USSR (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2011" />
+    </item>
+    <item type="boardgame" id="185727">
+        <name type="primary" value="Wales (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgame" id="193323">
+        <name type="primary" value="West Country (UK) (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgame" id="185217">
+        <name type="primary" value="West Indies (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgame" id="185218">
+        <name type="primary" value="Western Isles (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgame" id="130635">
+        <name type="primary" value="Wild Wild West (fan expansion for Ticket to Ride)"/>
+    </item>
+    <item type="boardgame" id="193206">
+        <name type="primary" value="Winnie-the Pooh (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgame" id="7418">
+        <name type="primary" value="The Winning Ticket"/>
+        <yearpublished value="1977" />
+    </item>
+    <item type="boardgame" id="225114">
+        <name type="primary" value="Yellow Sea (fan expansion of Ticket to Ride Rails and Sails)"/>
+        <yearpublished value="2017" />
+    </item>
+    <item type="boardgame" id="194418">
+        <name type="primary" value="Zanzibar: Pemba (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgame" id="194417">
+        <name type="primary" value="Zanzibar: Unguja (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgame" id="134079">
+        <name type="primary" value="Östergötland in the 1930&#039;s (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2012" />
+    </item>
+    <item type="boardgame" id="130397">
+        <name type="primary" value="Österreich Karte: Zug um Zug (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2007" />
+    </item>
+    <item type="boardgameexpansion" id="185197">
+        <name type="primary" value="Alaska (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgameexpansion" id="184013">
+        <name type="primary" value="Alice in Wonderland (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgameexpansion" id="189445">
+        <name type="primary" value="Ancient Greece (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgameexpansion" id="185198">
+        <name type="primary" value="Ancient Sicily (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgameexpansion" id="197040">
+        <name type="primary" value="Antarctica (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgameexpansion" id="252142">
+        <name type="primary" value="Antarctica (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2018" />
+    </item>
+    <item type="boardgameexpansion" id="120034">
+        <name type="primary" value="Les Aventuriers du rail en Belgique (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2004" />
+    </item>
+    <item type="boardgameexpansion" id="108422">
+        <name type="primary" value="Les Aventuriers du rail à Lyon (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2004" />
+    </item>
+    <item type="boardgameexpansion" id="223979">
+        <name type="primary" value="Barsoom (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2017" />
+    </item>
+    <item type="boardgameexpansion" id="224473">
+        <name type="primary" value="Bay of Bengal (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2017" />
+    </item>
+    <item type="boardgameexpansion" id="211230">
+        <name type="primary" value="Belarus (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgameexpansion" id="220770">
+        <name type="primary" value="Black Sea (fan expansion of Ticket to Ride: Rails &amp; Sails)"/>
+        <yearpublished value="2017" />
+    </item>
+    <item type="boardgameexpansion" id="185200">
+        <name type="primary" value="Borneo (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgameexpansion" id="130427">
+        <name type="primary" value="Bretagne (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2006" />
+    </item>
+    <item type="boardgameexpansion" id="114528">
+        <name type="primary" value="Britain &amp; Ireland (fan expansion to Ticket To Ride: Europe)"/>
+        <yearpublished value="2011" />
+    </item>
+    <item type="boardgameexpansion" id="209430">
+        <name type="primary" value="Bulgaria (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgameexpansion" id="210647">
+        <name type="primary" value="Cambodia (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgameexpansion" id="123300">
+        <name type="primary" value="Canada (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2012" />
+    </item>
+    <item type="boardgameexpansion" id="222388">
+        <name type="primary" value="Canada 2017 (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2017" />
+    </item>
+    <item type="boardgameexpansion" id="185201">
+        <name type="primary" value="Canary Islands (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgameexpansion" id="70712">
+        <name type="primary" value="Castilla y León (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2009" />
+    </item>
+    <item type="boardgameexpansion" id="120037">
+        <name type="primary" value="Alsace (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2009" />
+    </item>
+    <item type="boardgameexpansion" id="185202">
+        <name type="primary" value="Channel Islands (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgameexpansion" id="130419">
+        <name type="primary" value="China (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2006" />
+    </item>
+    <item type="boardgameexpansion" id="186937">
+        <name type="primary" value="Corsica (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgameexpansion" id="196789">
+        <name type="primary" value="Cuba (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgameexpansion" id="130634">
+        <name type="primary" value="Cuba: Region Occidental (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2005" />
+    </item>
+    <item type="boardgameexpansion" id="209093">
+        <name type="primary" value="Cyprus (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgameexpansion" id="209680">
+        <name type="primary" value="Czech Republic (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgameexpansion" id="202082">
+        <name type="primary" value="Czech Republic (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgameexpansion" id="187440">
+        <name type="primary" value="Denmark (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgameexpansion" id="193824">
+        <name type="primary" value="Dickensian Intrigue (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgameexpansion" id="204580">
+        <name type="primary" value="East Africa (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgameexpansion" id="185204">
+        <name type="primary" value="East Indies (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgameexpansion" id="185205">
+        <name type="primary" value="Eastern Europe (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgameexpansion" id="185206">
+        <name type="primary" value="Egypt (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgameexpansion" id="129237">
+        <name type="primary" value="The Emerald City (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2013" />
+    </item>
+    <item type="boardgameexpansion" id="203135">
+        <name type="primary" value="Estonia (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgameexpansion" id="151461">
+        <name type="primary" value="Expedition: Famous Explorers – Travel Tickets and Hazard Cards"/>
+        <yearpublished value="2013" />
+    </item>
+    <item type="boardgameexpansion" id="123217">
+        <name type="primary" value="Extension France (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2005" />
+    </item>
+    <item type="boardgameexpansion" id="185207">
+        <name type="primary" value="Falkland Islands (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgameexpansion" id="198842">
+        <name type="primary" value="France (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgameexpansion" id="200052">
+        <name type="primary" value="The Grand Duchy of Luxembourg (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgameexpansion" id="189868">
+        <name type="primary" value="Greece (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgameexpansion" id="185208">
+        <name type="primary" value="Greenland (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgameexpansion" id="195926">
+        <name type="primary" value="Gulf States (Fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgameexpansion" id="184978">
+        <name type="primary" value="Hallowe&#039;en (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgameexpansion" id="192128">
+        <name type="primary" value="Hawaii (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgameexpansion" id="218288">
+        <name type="primary" value="Hispaniola (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2017" />
+    </item>
+    <item type="boardgameexpansion" id="194756">
+        <name type="primary" value="Hokkaido (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgameexpansion" id="130183">
+        <name type="primary" value="Holland (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2007" />
+    </item>
+    <item type="boardgameexpansion" id="130483">
+        <name type="primary" value="Holland Express (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2006" />
+    </item>
+    <item type="boardgameexpansion" id="185209">
+        <name type="primary" value="Hungary (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgameexpansion" id="187441">
+        <name type="primary" value="Iberia (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgameexpansion" id="185210">
+        <name type="primary" value="Iceland (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgameexpansion" id="185211">
+        <name type="primary" value="India (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgameexpansion" id="194176">
+        <name type="primary" value="Indiana (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgameexpansion" id="187442">
+        <name type="primary" value="Indochina (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgameexpansion" id="187447">
+        <name type="primary" value="Ireland (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgameexpansion" id="191856">
+        <name type="primary" value="Isle of Man (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgameexpansion" id="130399">
+        <name type="primary" value="Italy (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2006" />
+    </item>
+    <item type="boardgameexpansion" id="130484">
+        <name type="primary" value="Italy (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2006" />
+    </item>
+    <item type="boardgameexpansion" id="130485">
+        <name type="primary" value="Italy (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2005" />
+    </item>
+    <item type="boardgameexpansion" id="211712">
+        <name type="primary" value="Jamaica (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgameexpansion" id="192367">
+        <name type="primary" value="Japan (fan expansion to Ticket To Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgameexpansion" id="127364">
+        <name type="primary" value="Komorów (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2012" />
+    </item>
+    <item type="boardgameexpansion" id="187448">
+        <name type="primary" value="Korean Peninsula (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgameexpansion" id="213959">
+        <name type="primary" value="Kosovo (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgameexpansion" id="200730">
+        <name type="primary" value="Latvia (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgameexpansion" id="207241">
+        <name type="primary" value="Liechtenstein (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgameexpansion" id="134118">
+        <name type="primary" value="Lietuva (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2010" />
+    </item>
+    <item type="boardgameexpansion" id="140727">
+        <name type="primary" value="London Underground (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2007" />
+    </item>
+    <item type="boardgameexpansion" id="210102">
+        <name type="primary" value="Macedonia (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgameexpansion" id="154440">
+        <name type="primary" value="Madagascar (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2014" />
+    </item>
+    <item type="boardgameexpansion" id="193703">
+        <name type="primary" value="Madeira (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgameexpansion" id="187449">
+        <name type="primary" value="Mars (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgameexpansion" id="208660">
+        <name type="primary" value="Mascarene Islands (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgameexpansion" id="207675">
+        <name type="primary" value="Mauritius &amp; Réunion (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgameexpansion" id="192874">
+        <name type="primary" value="Mauritius (fan expansion of Ticket to ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgameexpansion" id="219506">
+        <name type="primary" value="Mediterranean (fan expansion of Ticket to Ride Rails and Sails)"/>
+        <yearpublished value="2017" />
+    </item>
+    <item type="boardgameexpansion" id="212811">
+        <name type="primary" value="Moldova (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgameexpansion" id="212635">
+        <name type="primary" value="Montenegro (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgameexpansion" id="217666">
+        <name type="primary" value="Myanmar (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2017" />
+    </item>
+    <item type="boardgameexpansion" id="212045">
+        <name type="primary" value="Nepal (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgameexpansion" id="197697">
+        <name type="primary" value="Netherlands (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgameexpansion" id="185203">
+        <name type="primary" value="New China (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgameexpansion" id="130424">
+        <name type="primary" value="New destination tickets for TtR Europe (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2006" />
+    </item>
+    <item type="boardgameexpansion" id="187450">
+        <name type="primary" value="New York (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgameexpansion" id="185212">
+        <name type="primary" value="New Zealand (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgameexpansion" id="187451">
+        <name type="primary" value="Niagara (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgameexpansion" id="130421">
+        <name type="primary" value="North-Africa (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2006" />
+    </item>
+    <item type="boardgameexpansion" id="185213">
+        <name type="primary" value="Northamptonshire (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgameexpansion" id="192452">
+        <name type="primary" value="Ohio (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgameexpansion" id="191003">
+        <name type="primary" value="Poland (Fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgameexpansion" id="130423">
+        <name type="primary" value="Portugal (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2006" />
+    </item>
+    <item type="boardgameexpansion" id="130428">
+        <name type="primary" value="Quebec Province (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2006" />
+    </item>
+    <item type="boardgameexpansion" id="135440">
+        <name type="primary" value="Québec et l&#039;Est du Canada (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2012" />
+    </item>
+    <item type="boardgameexpansion" id="130632">
+        <name type="primary" value="Reise durch Ägypten (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2005" />
+    </item>
+    <item type="boardgameexpansion" id="208623">
+        <name type="primary" value="Rodrigues &amp; Mauritius (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgameexpansion" id="202306">
+        <name type="primary" value="Roman Italy (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgameexpansion" id="139110">
+        <name type="primary" value="România (fan expansion for Ticket to Ride: Europe)"/>
+        <yearpublished value="2012" />
+    </item>
+    <item type="boardgameexpansion" id="153997">
+        <name type="primary" value="Russian Empire 1912 (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2014" />
+    </item>
+    <item type="boardgameexpansion" id="208157">
+        <name type="primary" value="Réunion &amp; Mauritius (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgameexpansion" id="130422">
+        <name type="primary" value="Scandinavia (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2006" />
+    </item>
+    <item type="boardgameexpansion" id="215212">
+        <name type="primary" value="Scandinavia (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgameexpansion" id="185214">
+        <name type="primary" value="Scilly Isles (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgameexpansion" id="64262">
+        <name type="primary" value="Seattle (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2009" />
+    </item>
+    <item type="boardgameexpansion" id="206639">
+        <name type="primary" value="Serbia (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgameexpansion" id="253140">
+        <name type="primary" value="ShutterBug: Train Tickets"/>
+        <yearpublished value="2018" />
+    </item>
+    <item type="boardgameexpansion" id="185215">
+        <name type="primary" value="Slovakia (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgameexpansion" id="205628">
+        <name type="primary" value="Slovenia (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgameexpansion" id="185216">
+        <name type="primary" value="South America (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgameexpansion" id="216561">
+        <name type="primary" value="South Korea (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgameexpansion" id="159347">
+        <name type="primary" value="South-East Sweden 1925 (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2013" />
+    </item>
+    <item type="boardgameexpansion" id="192548">
+        <name type="primary" value="Sri Lanka (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgameexpansion" id="130182">
+        <name type="primary" value="Sweden (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2007" />
+    </item>
+    <item type="boardgameexpansion" id="187452">
+        <name type="primary" value="Texas (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2009" />
+    </item>
+    <item type="boardgameexpansion" id="220018">
+        <name type="primary" value="Thailand (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2017" />
+    </item>
+    <item type="boardgameexpansion" id="130398">
+        <name type="primary" value="Ticket to Finland (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2006" />
+    </item>
+    <item type="boardgameexpansion" id="106637">
+        <name type="primary" value="Ticket to Ride Map Collection: Volume 1 – Team Asia &amp; Legendary Asia"/>
+        <yearpublished value="2011" />
+    </item>
+    <item type="boardgameexpansion" id="106645">
+        <name type="primary" value="Ticket to Ride Map Collection: Volume 2 – India &amp; Switzerland"/>
+        <yearpublished value="2011" />
+    </item>
+    <item type="boardgameexpansion" id="131188">
+        <name type="primary" value="Ticket to Ride Map Collection: Volume 3 – The Heart of Africa"/>
+        <yearpublished value="2012" />
+    </item>
+    <item type="boardgameexpansion" id="147938">
+        <name type="primary" value="Ticket to Ride Map Collection: Volume 4 – Nederland"/>
+        <yearpublished value="2013" />
+    </item>
+    <item type="boardgameexpansion" id="182078">
+        <name type="primary" value="Ticket to Ride Map Collection: Volume 5 – United Kingdom &amp; Pennsylvania"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgameexpansion" id="233891">
+        <name type="primary" value="Ticket to Ride Map Collection: Volume 6 – France &amp; Old West"/>
+        <yearpublished value="2017" />
+    </item>
+    <item type="boardgameexpansion" id="89848">
+        <name type="primary" value="Ticket to Ride: Alvin &amp; Dexter"/>
+        <yearpublished value="2011" />
+    </item>
+    <item type="boardgameexpansion" id="53383">
+        <name type="primary" value="Ticket to Ride: Europa 1912"/>
+        <yearpublished value="2009" />
+    </item>
+    <item type="boardgameexpansion" id="243684">
+        <name type="primary" value="Ticket to Ride: Europe – London/København"/>
+        <yearpublished value="2017" />
+    </item>
+    <item type="boardgameexpansion" id="13297">
+        <name type="primary" value="Ticket to Ride: Mystery Train Expansion"/>
+        <yearpublished value="2004" />
+    </item>
+    <item type="boardgameexpansion" id="185306">
+        <name type="primary" value="Ticket to Ride: Orient Express"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgameexpansion" id="30746">
+        <name type="primary" value="Ticket to Ride: Switzerland"/>
+        <yearpublished value="2007" />
+    </item>
+    <item type="boardgameexpansion" id="38454">
+        <name type="primary" value="Ticket to Ride: The Dice Expansion"/>
+        <yearpublished value="2008" />
+    </item>
+    <item type="boardgameexpansion" id="24439">
+        <name type="primary" value="Ticket to Ride: USA 1910"/>
+        <yearpublished value="2006" />
+    </item>
+    <item type="boardgameexpansion" id="186205">
+        <name type="primary" value="Transylvania (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgameexpansion" id="190161">
+        <name type="primary" value="Turkey (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgameexpansion" id="119897">
+        <name type="primary" value="UK (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2006" />
+    </item>
+    <item type="boardgameexpansion" id="130481">
+        <name type="primary" value="UK (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2005" />
+    </item>
+    <item type="boardgameexpansion" id="130482">
+        <name type="primary" value="UK Cynical Edition (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2005" />
+    </item>
+    <item type="boardgameexpansion" id="137427">
+        <name type="primary" value="UK version 2.0 (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2009" />
+    </item>
+    <item type="boardgameexpansion" id="142110">
+        <name type="primary" value="Ukraine (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2012" />
+    </item>
+    <item type="boardgameexpansion" id="188748">
+        <name type="primary" value="Ukraine (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgameexpansion" id="115070">
+        <name type="primary" value="USSR (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2011" />
+    </item>
+    <item type="boardgameexpansion" id="185727">
+        <name type="primary" value="Wales (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgameexpansion" id="193323">
+        <name type="primary" value="West Country (UK) (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgameexpansion" id="185217">
+        <name type="primary" value="West Indies (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgameexpansion" id="185218">
+        <name type="primary" value="Western Isles (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="boardgameexpansion" id="130635">
+        <name type="primary" value="Wild Wild West (fan expansion for Ticket to Ride)"/>
+    </item>
+    <item type="boardgameexpansion" id="193206">
+        <name type="primary" value="Winnie-the Pooh (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgameexpansion" id="225114">
+        <name type="primary" value="Yellow Sea (fan expansion of Ticket to Ride Rails and Sails)"/>
+        <yearpublished value="2017" />
+    </item>
+    <item type="boardgameexpansion" id="194418">
+        <name type="primary" value="Zanzibar: Pemba (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgameexpansion" id="194417">
+        <name type="primary" value="Zanzibar: Unguja (fan expansion of Ticket to Ride)"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="boardgameexpansion" id="134079">
+        <name type="primary" value="Östergötland in the 1930&#039;s (fan expansion to Ticket to Ride)"/>
+        <yearpublished value="2012" />
+    </item>
+    <item type="boardgameexpansion" id="130397">
+        <name type="primary" value="Österreich Karte: Zug um Zug (fan expansion for Ticket to Ride)"/>
+        <yearpublished value="2007" />
+    </item>
+    <item type="rpgitem" id="216665">
+        <name type="primary" value="Criminal Enterprise"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="rpgitem" id="226628">
+        <name type="primary" value="The Damned &amp; The Degenerate"/>
+        <yearpublished value="2017" />
+    </item>
+    <item type="rpgitem" id="253748">
+        <name type="primary" value="The Dispensatory of Doctor Macdead"/>
+        <yearpublished value="2018" />
+    </item>
+    <item type="rpgitem" id="247027">
+        <name type="primary" value="The Doom That Came to Five Dock"/>
+        <yearpublished value="2018" />
+    </item>
+    <item type="rpgitem" id="255703">
+        <name type="primary" value="Fallen Stars"/>
+        <yearpublished value="2018" />
+    </item>
+    <item type="rpgitem" id="240074">
+        <name type="primary" value="Gentleman Convicts"/>
+        <yearpublished value="2017" />
+    </item>
+    <item type="rpgitem" id="228406">
+        <name type="primary" value="Night of the Convict Dead"/>
+        <yearpublished value="2017" />
+    </item>
+    <item type="rpgitem" id="203457">
+        <name type="primary" value="Night Terrors"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="rpgitem" id="52022">
+        <name type="primary" value="No Ticket"/>
+        <yearpublished value="2005" />
+    </item>
+    <item type="rpgitem" id="242479">
+        <name type="primary" value="Orphan School Horror"/>
+        <yearpublished value="2017" />
+    </item>
+    <item type="rpgitem" id="235890">
+        <name type="primary" value="Seams of Peril"/>
+        <yearpublished value="2017" />
+    </item>
+    <item type="rpgitem" id="262446">
+        <name type="primary" value="The Thirteenth Convict"/>
+        <yearpublished value="2018" />
+    </item>
+    <item type="rpgitem" id="223078">
+        <name type="primary" value="Ticket to Hell"/>
+        <yearpublished value="2015" />
+    </item>
+    <item type="rpgitem" id="228517">
+        <name type="primary" value="A Ticket to Midnight"/>
+        <yearpublished value="1999" />
+    </item>
+    <item type="rpgitem" id="210186">
+        <name type="primary" value="Tricolour Terror"/>
+        <yearpublished value="2016" />
+    </item>
+    <item type="rpgitem" id="223195">
+        <name type="primary" value="The Vanishing Ensign"/>
+        <yearpublished value="2017" />
+    </item>
+    <item type="videogame" id="107245">
+        <name type="primary" value="Mystery P.I.: The Lottery Ticket"/>
+    </item>
+    <item type="videogame" id="223715">
+        <name type="primary" value="Ticket to Earth"/>
+    </item>
+    <item type="videogame" id="76803">
+        <name type="primary" value="Ticket to Ride"/>
+    </item>
+    <item type="videogame" id="265473">
+        <name type="primary" value="Ticket to Ride - Germany"/>
+    </item>
+    <item type="videogame" id="265474">
+        <name type="primary" value="Ticket to Ride - India"/>
+    </item>
+    <item type="videogame" id="250538">
+        <name type="primary" value="Ticket to Ride - Legendary Asia"/>
+    </item>
+    <item type="videogame" id="265475">
+        <name type="primary" value="Ticket to Ride - Switzerland"/>
+    </item>
+    <item type="videogame" id="257259">
+        <name type="primary" value="Ticket to Ride: Europa 1912"/>
+    </item>
+    <item type="videogame" id="128509">
+        <name type="primary" value="Ticket to Ride: Europe"/>
+    </item>
+    <item type="videogame" id="257200">
+        <name type="primary" value="Ticket to Ride: Europe"/>
+    </item>
+    <item type="videogame" id="238082">
+        <name type="primary" value="Ticket to Ride: First Journey"/>
+    </item>
+    <item type="videogame" id="267232">
+        <name type="primary" value="Ticket to Ride: France"/>
+    </item>
+    <item type="videogame" id="257248">
+        <name type="primary" value="Ticket to Ride: Nordic Countries"/>
+    </item>
+    <item type="videogame" id="267145">
+        <name type="primary" value="Ticket to Ride: Pennsylvania"/>
+    </item>
+    <item type="videogame" id="257188">
+        <name type="primary" value="Ticket to Ride: United Kingdom"/>
+    </item>
+    <item type="videogame" id="257249">
+        <name type="primary" value="Ticket to Ride: USA 1910"/>
+    </item>
+</items>

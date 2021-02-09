@@ -1,0 +1,157 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'kotlin-android-extensions'
+//apply plugin: 'io.fabric'
+apply plugin: 'com.google.firebase.crashlytics'
+apply plugin: 'com.google.firebase.firebase-perf'
+apply plugin: 'com.google.android.gms.oss-licenses-plugin'
+apply plugin: 'com.github.ben-manes.versions'
+
+repositories {
+    jcenter()
+    google()
+    maven { url 'https://jitpack.io' }
+}
+
+android {
+    compileSdkVersion rootProject.compileSdkVersion
+    defaultConfig {
+        applicationId "se.oskarh.boardgamehub"
+        minSdkVersion rootProject.minSdkVersion
+        targetSdkVersion rootProject.targetSdkVersion
+        multiDexEnabled true
+        versionCode 13
+        versionName "1.2"
+        vectorDrawables.useSupportLibrary = true
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        kapt {
+            arguments {
+                arg("room.schemaLocation", "$projectDir/schemas".toString())
+            }
+        }
+    }
+    dataBinding {
+        enabled = true
+    }
+    buildTypes {
+        debug {
+            debuggable true
+            minifyEnabled false
+            applicationIdSuffix ".dev"
+        }
+        release {
+            debuggable false
+            minifyEnabled false
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+androidExtensions {
+    experimental = true
+}
+
+kapt {
+    arguments {
+        arg("primitiveTypeConverters", "java.lang.String")
+    }
+}
+
+dependencies {
+    implementation fileTree(include: '*.jar', dir: 'libs')
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.21"
+//    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+    api "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutines"
+    api "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutines"
+
+    implementation "androidx.appcompat:appcompat:$jetpackAppcompat"
+//    implementation "androidx.constraintlayout:constraintlayout:$jetpackConstraintLayout"
+    implementation "androidx.core:core-ktx:$jetpackCoreKtx"
+    implementation "androidx.lifecycle:lifecycle-extensions:$jetpackLifecycle"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$jetpackLifecycle"
+    implementation "androidx.lifecycle:lifecycle-common-java8:$jetpackLifecycle"
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:$jetpackLifecycle"
+    implementation "androidx.multidex:multidex:$jetpackMultidex"
+    implementation "androidx.recyclerview:recyclerview:$jetpackRecyclerview"
+    implementation "androidx.room:room-ktx:$jetpackRoom"
+    implementation "androidx.room:room-runtime:$jetpackRoom"
+    implementation "androidx.viewpager2:viewpager2:$jetpackViewPager"
+    implementation "com.android.support:palette-v7:$jetpackPalette"
+    implementation "com.google.android.material:material:$jetpackMaterial"
+//    implementation "android.arch.work:work-runtime-ktx:$jetpackWorkerManager"
+    kapt "androidx.room:room-compiler:$jetpackRoom"
+
+    implementation "com.google.firebase:firebase-core:$firebaseCore"
+    implementation "com.google.firebase:firebase-config:$firebaseConfig"
+    implementation "com.google.firebase:firebase-perf:$firebasePerformance"
+    implementation "com.google.android.gms:play-services-oss-licenses:$firebaseOssLicenses"
+    implementation "com.google.firebase:firebase-crashlytics:17.2.1"
+//    implementation "com.crashlytics.sdk.android:crashlytics:2.10.1"
+
+    implementation "com.google.code.gson:gson:$gson"
+    implementation "com.squareup.okhttp3:logging-interceptor:$okHttp"
+    implementation "com.squareup.okhttp3:okhttp:$okHttp"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofit"
+    implementation "com.squareup.retrofit2:retrofit-mock:$retrofit"
+    implementation "com.squareup.retrofit2:retrofit:$retrofit"
+
+    implementation "com.tickaroo.tikxml:annotation:$tikXml"
+    implementation "com.tickaroo.tikxml:core:$tikXml"
+    implementation "com.tickaroo.tikxml:retrofit-converter:$tikXml"
+    kapt "com.tickaroo.tikxml:processor:$tikXml"
+
+    implementation "com.github.bumptech.glide:glide:$glide"
+    kapt "com.github.bumptech.glide:compiler:$glide"
+
+    api "com.google.dagger:dagger:$dagger"
+    kapt "com.google.dagger:dagger-compiler:$dagger"
+
+    debugImplementation "com.amitshekhar.android:debug-db:$debugDatabase"
+    debugImplementation "com.github.ChuckerTeam.Chucker:library:$chucker"
+    releaseImplementation "com.github.ChuckerTeam.Chucker:library-no-op:$chucker"
+//    debugImplementation "com.readystatesoftware.chuck:library:$chuck"
+//    releaseImplementation "com.readystatesoftware.chuck:library-no-op:$chuck"
+
+    implementation "com.getkeepsafe.taptargetview:taptargetview:$tapTargetView"
+
+    implementation "com.pierfrancescosoffritti.androidyoutubeplayer:core:$youTubePlayer"
+
+    implementation "com.github.chrisbanes:PhotoView:$photoView"
+
+    implementation "com.chibatching.kotpref:enum-support:$kotPref"
+    implementation "com.chibatching.kotpref:kotpref:$kotPref"
+    implementation "com.chibatching.kotpref:livedata-support:$kotPref"
+
+    implementation "com.jakewharton.timber:timber:$timber"
+
+    implementation "com.shawnlin:number-picker:$numberPicker"
+
+    implementation "com.github.PhilJay:MPAndroidChart:$mpAndroidChart"
+
+    implementation "org.jsoup:jsoup:$jsoup"
+
+    implementation "com.github.daniel-stoneuk:material-about-library:$materialAboutLibrary"
+
+    implementation "com.elyeproj.libraries:loaderviewlibrary:$loaderViewLibrary"
+
+    implementation "com.dropbox.mobile.store:store4:$store"
+
+    // test
+    testImplementation "androidx.room:room-testing:$jetpackRoom"
+    testImplementation "junit:junit:$junit"
+    androidTestImplementation "androidx.test.espresso:espresso-contrib:$espresso"
+    androidTestImplementation "androidx.test:runner:$runner"
+}
+
+apply plugin: 'com.google.gms.google-services'

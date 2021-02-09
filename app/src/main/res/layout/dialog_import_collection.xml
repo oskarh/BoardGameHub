@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/create_import_root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="@string/import_collection"/>
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textColorHint="@color/secondaryTextColor"
+            android:textColor="@color/primaryTextColor"
+            android:hint="@string/boardgamegeek_username" />
+
+        <CheckBox
+            android:id="@+id/only_keep_imported_ids_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorAccent"
+            android:text="@string/only_keep_imported_ids"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/owned_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorAccent"
+            android:text="@string/owned"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/previously_owned_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorAccent"
+            android:text="@string/previously_owned"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/for_trade_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorAccent"
+            android:text="@string/for_trade"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/want_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorAccent"
+            android:text="@string/want"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/want_to_play_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorAccent"
+            android:text="@string/want_to_play"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/want_to_buy_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorAccent"
+            android:text="@string/want_to_buy"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/preordered_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorAccent"
+            android:text="@string/pre_ordered"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/wish_list_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorAccent"
+            android:text="@string/wishlist"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/import_collection_cancel"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                style="@style/FlatButtonNoAccent"
+                android:text="@string/cancel"/>
+
+            <Button
+                android:id="@+id/import_collection_ok"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                style="@style/FlatButtonNoAccent"
+                android:text="@string/import_title"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

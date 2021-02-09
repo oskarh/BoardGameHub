@@ -1,0 +1,334 @@
+<resources>
+    <string name="app_name" translatable="false">BoardGameHub</string>
+    <string name="boardgamegeek" translatable="false">BoardGameGeek</string>
+    <string name="boardgamegeek_game_link_builder" translatable="false">https://boardgamegeek.com/boardgame/%1$d</string>
+    <string name="boardgamehub_email" translatable="false">boardgamehubapp@gmail.com</string>
+    <string name="play_store_uri" translatable="false">market://details?id=se.oskarh.boardgamehub</string>
+    <string name="play_store_web_uri" translatable="false">I found this great Android app where you can find board games with detailed information. I thought you might find it worthwhile, read more here https://play.google.com/store/apps/details?id=se.oskarh.boardgamehub</string>
+    <string name="youtube_channel_link_builder" translatable="false">https://www.youtube.com/channel/%1$s</string>
+    <string name="youtube_link_builder" translatable="false">https://www.youtube.com/watch?v=%1$s</string>
+
+    <string name="share">Share</string>
+    <string name="add_favorite">Add to collection</string>
+    <string name="remove_favorite">Remove from collection</string>
+    <string name="updated_to_version">Updated to version %1$s 🎉</string>
+    <string name="added_favorite">Added to collection</string>
+    <string name="removed_favorite">Removed from collection</string>
+    <string name="share_youtube_subject">Check out \'%1$s\' on YouTube</string>
+    <string name="share_youtube_text">I found this video I thought you might be interested in using the BoardGameHub Android app \n\n%1$s</string>
+    <string name="share_app_subject">Try BoardGameHub for Android</string>
+    <string name="share_boardgame_subject">Check out \'%1$s\' on BoardGameGeek</string>
+    <string name="share_boardgame_text">I found this board game I thought you might be interested in using the BoardGameHub Android app \n\n%1$s</string>
+    <string name="about">About</string>
+    <string name="filter">Filter</string>
+    <string name="hot_boardgames">Hot board games</string>
+    <string name="play_time">Play time</string>
+    <string name="voted_best">Voted best for…</string>
+    <string name="playing_time_formatted">%1$s min.</string>
+    <string name="search">Search</string>
+    <string name="settings">Settings</string>
+    <string name="try_again">Try again</string>
+    <string name="youtube_channels_title">BoardGameGeek videos</string>
+    <string name="youtube_list">%1$s &#8226; %2$s views &#8226; %3$s</string>
+    <string name="views">%1$s views</string>
+    <string name="recent_searches">Recent searches</string>
+    <string name="tab_comments">Comments</string>
+    <string name="tab_details">Details</string>
+    <string name="tab_videos">Videos</string>
+    <string name="sort">Sort</string>
+    <string name="title">Title</string>
+    <string name="relevance">Relevance</string>
+    <string name="year_published_ascending">Year published ascending</string>
+    <string name="year_published_descending">Year published descending</string>
+    <string name="sort_title">Sort by</string>
+    <string name="sort_collection_message">Sorting collection by %1$s</string>
+    <string name="sort_collection_title">Sort collection by</string>
+    <string name="sort_best_voted_title">Best voted for players…</string>
+    <string name="average_title">Ratings calculated by</string>
+    <string name="show_games">Show stand-alone board games</string>
+    <string name="show_expansions">Show expansions</string>
+    <string name="only_show_published">Only show board games published…</string>
+    <string name="only_show_players">Only show board games playable with…</string>
+    <string name="ok">OK</string>
+    <string name="end_year_hint">End year</string>
+    <string name="start_year_hint">Start year</string>
+    <string name="players_hint">Players</string>
+    <string name="player_count">%1$d players</string>
+    <string name="show_more">Show more</string>
+    <string name="show_less">Show less</string>
+    <string name="open_source_licenses">Open source licenses</string>
+    <string name="rate_app">Rate app</string>
+    <string name="share_app">Share app</string>
+    <string name="share_app_subtext">Help your friends discover the app</string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="version">Version</string>
+    <string name="year_bc">%1$d BC</string>
+    <string name="boardgame_geek_link"><u>Powered by BoardGameGeek</u></string>
+    <string name="minutes">%1$s min.</string>
+    <string name="favorite_boardgames">My collection</string>
+    <string name="year_formatter">%4d</string>
+    <string name="favorites_empty_message">You don\'t seem to have any board games added to your collection yet 🧐</string>
+    <string name="filter_warning_message">At least one of stand-alone board games or expansions must be checked</string>
+    <string name="share_title">Choose application</string>
+    <string name="show_all">Show all</string>
+    <string name="show_all_expansions">All expansions</string>
+    <string name="empty_videos_message">No videos found</string>
+    <string name="error_videos_message">Failed to load videos</string>
+    <string name="empty_comments_message">No comments found</string>
+    <string name="error_comments_message">Failed to load comments</string>
+    <string name="empty_search_message">No results found</string>
+    <string name="prompt_review_message">Do you enjoy BordgameHub?\n\nIf you do, to help spread the word, would you have a minute to give a review on Google Play Store?</string>
+    <string name="never_ask">Never ask</string>
+    <string name="maybe_later">Maybe later</string>
+    <string name="yes">Yes</string>
+    <string name="import_title">Import</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete_search_title">Clear search history</string>
+    <string name="delete_search_message">Are you sure you want to delete all of your search history?</string>
+    <string name="delete_cache_title">Clear cache</string>
+    <string name="delete_cache_message">Are you sure you want to delete all of your locally stored data?</string>
+    <string name="no_description">No description found</string>
+
+    <string name="switch_enabled_message">%1$s is now visible</string>
+    <string name="switch_disabled_message">%1$s is no longer visible</string>
+    <string name="boardgame_family">Board game family</string>
+    <string name="implementation">Implementations</string>
+
+    <string name="autplay_enabled">Videos will start playing automatically</string>
+    <string name="autplay_disabled">Videos will not start playing automatically</string>
+
+    <string name="open_in_youtube_message">Videos will open in the YouTube app</string>
+    <string name="open_in_boardgamehub_message">Videos will open in BoardGameHub</string>
+    <string name="user_interface_message">Select which board game properties you want visible</string>
+    <string name="description">Description</string>
+    <string name="mechanics">Mechanics</string>
+    <string name="categories">Categories</string>
+    <string name="types">Types</string>
+    <string name="expansions">Expansions</string>
+    <string name="compilations">Compilations</string>
+    <string name="family">Board game family</string>
+    <string name="implementations">Implementations</string>
+    <string name="language_dependency">Language dependency</string>
+    <string name="designers">Designers</string>
+    <string name="artists">Artists</string>
+    <string name="publishers">Publishers</string>
+    <string name="recent_boardgames">Recent board games</string>
+    <string name="boardgamegeek_videos">BoardGameGeek videos</string>
+    <string name="choose_youtube_channel">Choose YouTube channel</string>
+    <string name="choose_category">Choose category</string>
+    <string name="change">Change</string>
+    <string name="changelog">Changelog</string>
+    <string name="app_updated">BoardGameHub updated to %1$s</string>
+    <string name="view_changelog">View changelog</string>
+    <string name="changelog_1_0_title">Version 1.0</string>
+    <string name="changelog_1_0_description">• Search, filter and sort for board games\n• Show search results in expanded or compact mode\n• See currently trending and top board games\n• Show videos related to a board game\n• Import your collection from BoardGameGeek\n• Customize displayed properties for a board game</string>
+    <string name="changelog_1_1_title">Version 1.1</string>
+    <string name="changelog_1_1_description">• See the latest hot topics on /r/boardgames\n• Find any board game cafe worldwide\n• Long click a game to quickly share it or add it to your collection</string>
+    <string name="changelog_1_2_title">Version 1.2</string>
+    <string name="changelog_1_2_description">• Filter and sort your collection to find the perfect game for your next board game night\n• User interface improvements to the video player</string>
+    <string name="showing_videos_from">Showing videos from %1$s</string>
+    <string name="youtube_channel">YouTube Channel</string>
+    <string name="channel_videos">%1$s videos</string>
+    <string name="sort_games_by">Sort games by %1$s</string>
+    <string name="user_ratings">%1$s user ratings</string>
+    <string name="user_votes">%1$s votes</string>
+    <string name="filter_games_shown">Filter games shown %1$s</string>
+    <string name="general">General</string>
+    <string name="clear_search_history_title">Clear search history</string>
+    <string name="clear_search_history_description">Clear all search history</string>
+    <string name="clear_search_history_done">Search history cleared</string>
+    <string name="standalone_boardgames">standalone board games</string>
+    <string name="and">and</string>
+    <string name="published_at_any_time">at any time</string>
+    <string name="published_between">between %1$d - %2$d</string>
+    <string name="filter_description">Show %1$s published %2$s</string>
+    <string name="search_youtube">Search YouTube</string>
+    <string name="boardgamegeek_thanks">BoardGameHub is made possible by BoardGameGeek and their API.\n\nGo to BoardGameGeek.com and support them!</string>
+    <string name="empty_suggestions_message">Type four letters to start searching</string>
+    <string name="clear_cache_title">Clear cache</string>
+    <string name="clear_cache_description">Clear all locally saved data</string>
+    <string name="clear_cache_done">Cache cleared</string>
+    <string name="user_interface_title">User interface</string>
+    <string name="user_interface_description">Customize your user interface</string>
+    <string name="video">Video</string>
+    <string name="open_in_youtube_title">Open in YouTube</string>
+    <string name="open_in_youtube_description">Open videos in the YouTube app</string>
+    <string name="autoplay_videos_title">Autoplay videos</string>
+    <string name="autoplay_videos_description">Start playing videos automatically</string>
+    <string name="showing_top_category">Show best rated %1$s board games</string>
+    <string name="best_top_category">Top %1$s</string>
+    <string name="youtube_search">%1$s board game</string>
+
+    <string name="user_average_0_votes">User average</string>
+    <string name="user_average_10_votes">User average if at least 10 ratings</string>
+    <string name="user_average_100_votes">User average if at least 100 ratings</string>
+    <string name="geek_rating">Geek rating</string>
+    <string name="boardgame_expansions">%1$s expansions</string>
+
+    <string name="small_board_games_displayed">Board games displayed in compact mode</string>
+    <string name="large_board_games_displayed">Board games displayed in expanded mode</string>
+    <string name="enter_username_to_import">Enter a valid username to import collection</string>
+    <string name="import_board_games_successful">Imported %1$s board games to your collection</string>
+    <string name="import_board_games_empty">Imported board game collection was empty</string>
+    <string name="import_board_games_failed">Failed to import board games</string>
+
+    <string name="all">All time</string>
+    <string name="wargames">Wargames</string>
+    <string name="strategy">Strategy</string>
+    <string name="customizable">Customizable</string>
+    <string name="abstracts">Abstract</string>
+    <string name="children">Children</string>
+    <string name="party">Party</string>
+    <string name="thematic">Thematic</string>
+    <string name="property_boardgamegeek_link">Read more on BoardGameGeek</string>
+    <string name="property_error_message">Could not find more information about the property. Use the link below to read about it on BoardGameGeek instead</string>
+    <string name="type">Type</string>
+    <string name="ratings">Ratings</string>
+    <string name="recommended_age">Recommended age</string>
+    <string name="recommended_players">Recommended number of players</string>
+    <string name="best">Best</string>
+    <string name="recommended">Recommended</string>
+    <string name="not_recommended">Not recommended</string>
+    <string name="language_dependency_description">\"Language dependence\" means how much text and other language dependencies appear on a game\'s components or during gameplay.</string>
+
+    <string name="complexity_description">BoardGameGeek uses a 5-point weight scale 1 being the easiest to understand and 5 the hardest.
+
+        \n\nAlthough \"Weight\" isn\'t precisely defined, the game pages now reference a \"complexity rating\" which they define as \"Community rating for how difficult a game is to understand. Lower rating (lighter weight) means easier.\"
+
+\n\nFor different people weight means different things, usually a combination of things like:
+
+\n\n&#8226; How complex/thick is the rulebook?
+\n&#8226; How long does it take to play?
+\n&#8226; What proportion of time is spent thinking and planning instead of resolving actions?
+\n&#8226; How hard and long do you have to think to improve your chance of winning?
+\n&#8226; How little luck is in the game?
+\n&#8226; How much technical skill (math, reading ahead moves, etc) is necessary?
+\n&#8226; How long does it take to learn the rules?
+\n&#8226; How many times do you need to play before you feel like you \"get\" the game?</string>
+    <string name="weight">Weight</string>
+
+    <string name="app_invite_call_to_action">Install BoardGameHub</string>
+    <string name="app_invite_message">Try out this great app to find information about any board game</string>
+    <string name="app_invite_title">Check out BoardGameHub</string>
+    <string name="update">Update</string>
+    <string name="update_required_title">Update required</string>
+    <string name="update_required_message">There\'s a new version of BoardGameHub available. Normally you can keep using the old version but this update is extra important, download it to keep using the app.</string>
+    <string name="language_dependency_missing">Not enough votes on language dependency</string>
+    <string name="minimum_age_missing">Not enough votes on minimum age</string>
+    <string name="recommended_number_players_missing">Not enough votes on recommended number of players</string>
+    <string name="hot_error_title">Failed to load hot board games</string>
+    <string name="reddit_error_title">Failed to load reddit posts</string>
+    <string name="top_error_title">Failed to load top board games</string>
+    <string name="search_failed_message">Search failed</string>
+    <string name="details_error_title">Failed to load board game details</string>
+    <string name="board_game_standalone_title">Stand alone board game</string>
+    <string name="board_game_expansion_title">Board game expansion</string>
+    <string name="board_game_accessory_title">Board game accessory</string>
+    <string name="rpg_issue_title">Role playing game issue</string>
+    <string name="rpg_item_title">Role playing game item</string>
+    <string name="unknown_title">Unknown type</string>
+
+    <string name="onboarding_favorites_title">My collection</string>
+    <string name="onboarding_favorites_message">Click to see an expanded list of board games you have added to your collection</string>
+    <string name="onboarding_property_title">Board game property</string>
+    <string name="onboarding_property_message">Tap to see more detailed information about any property</string>
+    <string name="onboarding_youtube_search_title">Search YouTube</string>
+    <string name="onboarding_youtube_search_message">Find more videos for this board game on YouTube</string>
+    <string name="onboarding_filter_title">Filter</string>
+    <string name="onboarding_filter_message">Filter to only show board games you are interested in</string>
+    <string name="onboarding_minimum_age_title">Recommended minimum age</string>
+    <string name="onboarding_minimum_age_message">See what users on BoardGameGeek voted was the recommended minimum age</string>
+    <string name="filter_board_games">Filter board games</string>
+    <string name="filter_collection">Filter collection</string>
+    <string name="top_games_category">Top games category</string>
+    <string name="integrations">Integrations</string>
+    <string name="contact_me_title">Contact me</string>
+    <string name="email_subject">About BoardGameHub</string>
+    <string name="contact_me_description">Found a bug or have a suggestion for a new feature? Send me an e-mail about it and let me know.</string>
+    <string name="toggle_list_mode">Toggle list mode</string>
+    <string name="import_from_boardgamegeek">Import collection</string>
+    <string name="import_from_boardgamegeek_message">Import your collection directly from BoardGameGeek</string>
+    <string name="boardgamegeek_username">BoardGameGeek username</string>
+    <string name="missing_username_error">Enter a username</string>
+    <string name="import_collection">Import collection</string>
+    <string name="wishlist">Wishlist</string>
+    <string name="pre_ordered">Pre-ordered</string>
+    <string name="want_to_buy">Want to buy</string>
+    <string name="want_to_play">Want to play</string>
+    <string name="want">Want</string>
+    <string name="for_trade">For trade</string>
+    <string name="owned">Owned</string>
+    <string name="previously_owned">Previously owned</string>
+    <string name="import_successful_message">Importing %1$d board games…</string>
+    <string name="only_keep_imported_ids">Remove board games in current collection not in imported collection</string>
+    <string name="load_more">Load more</string>
+    <string name="board_game_cafes">Board game cafes</string>
+    <string name="reddit_posts_title">Reddit boardgames</string>
+    <string name="complexity">Complexity</string>
+    <string name="minimum_age">Minimum age</string>
+
+    <plurals name="type_plurals">
+        <item quantity="one">Type</item>
+        <item quantity="other">Types</item>
+    </plurals>
+
+    <plurals name="category_plurals">
+        <item quantity="one">Category</item>
+        <item quantity="other">Categories</item>
+    </plurals>
+
+    <plurals name="mechanic_plurals">
+        <item quantity="one">Mechanic</item>
+        <item quantity="other">Mechanics</item>
+    </plurals>
+
+    <plurals name="expansion_plurals">
+        <item quantity="one">Expansion</item>
+        <item quantity="other">Expansions</item>
+    </plurals>
+
+    <plurals name="compilation_plurals">
+        <item quantity="one">Compilation</item>
+        <item quantity="other">Compilations</item>
+    </plurals>
+
+    <plurals name="implementation_plurals">
+        <item quantity="one">Implementation</item>
+        <item quantity="other">Implementations</item>
+    </plurals>
+
+    <plurals name="family_plurals">
+        <item quantity="one">Board game family</item>
+        <item quantity="other">Board game families</item>
+    </plurals>
+
+    <plurals name="designer_plurals">
+        <item quantity="one">Designer</item>
+        <item quantity="other">Designers</item>
+    </plurals>
+
+    <plurals name="artist_plurals">
+        <item quantity="one">Artist</item>
+        <item quantity="other">Artists</item>
+    </plurals>
+
+    <plurals name="publisher_plurals">
+        <item quantity="one">Publisher</item>
+        <item quantity="other">Publishers</item>
+    </plurals>
+
+    <plurals name="search_header_text">
+        <item quantity="one">Found %1$d board game</item>
+        <item quantity="other">Found %1$d board games</item>
+    </plurals>
+
+    <plurals name="videos">
+        <item quantity="one">%1$d video</item>
+        <item quantity="other">%1$d videos</item>
+    </plurals>
+
+    <plurals name="comments">
+        <item quantity="one">%1$d comment</item>
+        <item quantity="other">%1$d comments</item>
+    </plurals>
+</resources>

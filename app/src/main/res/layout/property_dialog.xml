@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/property_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            tools:text="American West"/>
+
+        <ProgressBar
+            android:id="@+id/property_loading"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/property_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:autoLink="web"
+            tools:text="American West games often have themes or storylines set in the Western United States during the latter half of the 19th century. Some of the themes and imagery found in the most popular American West games concerns cowboys, sheriffs, outlaws, prospecting, colonization, and railways, among others." />
+
+        <TextView
+            android:id="@+id/property_error"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textSize="16sp"
+            android:autoLink="web"
+            android:text="@string/property_error_message"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/boardgame_geek_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:text="@string/property_boardgamegeek_link"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

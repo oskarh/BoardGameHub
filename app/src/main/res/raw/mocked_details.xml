@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items termsofuse="https://boardgamegeek.com/xmlapi/termsofuse">
+    <item type="boardgame" id="9209">
+        <thumbnail>https://cf.geekdo-images.com/thumb/img/WRanmC5bMp81aFJHqzOi7Kcj-5g=/fit-in/200x150/pic38668.jpg</thumbnail>
+        <image>https://cf.geekdo-images.com/original/img/bOcAJxw-W-B2Gz0x67z8bjqzJgY=/0x0/pic38668.jpg</image>
+        <name type="primary" sortindex="1" value="Ticket to Ride" />
+        <name type="alternate" sortindex="2" value="¡Aventureros al tren!" />
+        <name type="alternate" sortindex="5" value="Les Aventuriers du Rail" />
+        <name type="alternate" sortindex="1" value="Menolippu" />
+        <name type="alternate" sortindex="1" value="Ticket to Ride سكة سفر" />
+        <name type="alternate" sortindex="1" value="Wsiąść do Pociągu" />
+        <name type="alternate" sortindex="1" value="Zug um Zug" />
+        <name type="alternate" sortindex="1" value="Τρενάκια" />
+        <name type="alternate" sortindex="1" value="เกมต่อรถไฟ" />
+        <name type="alternate" sortindex="1" value="チケット・トゥ・ライド・アメリカ" />
+        <name type="alternate" sortindex="1" value="乗車券" />
+        <name type="alternate" sortindex="1" value="鐵道任務" />
+        <name type="alternate" sortindex="1" value="티켓 투 라이드" />
+        <description>With elegantly simple gameplay, Ticket to Ride can be learned in under 15 minutes, while providing players with intense strategic and tactical decisions every turn. Players collect cards of various types of train cars they then use to claim railway routes in North America. The longer the routes, the more points they earn. Additional points come to those who fulfill Destination Tickets &amp;ndash; goal cards that connect distant cities; and to the player who builds the longest continuous route.&amp;#10;&amp;#10;&amp;quot;The rules are simple enough to write on a train ticket &amp;ndash; each turn you either draw more cards, claim a route, or get additional Destination Tickets,&amp;quot; says Ticket to Ride author, Alan R. Moon. &amp;quot;The tension comes from being forced to balance greed &amp;ndash; adding more cards to your hand, and fear &amp;ndash; losing a critical route to a competitor.&amp;quot;&amp;#10;&amp;#10;Ticket to Ride continues in the tradition of Days of Wonder's big format board games featuring high-quality illustrations and components including: an oversize board map of North America, 225 custom-molded train cars, 144 illustrated cards, and wooden scoring markers.&amp;#10;&amp;#10;Since its introduction and numerous subsequent awards, Ticket to Ride has become the BoardGameGeek epitome of a &amp;quot;gateway game&amp;quot; -- simple enough to be taught in a few minutes, and with enough action and tension to keep new players involved and in the game for the duration.&amp;#10;&amp;#10;Part of the Ticket to Ride series.&amp;#10;&amp;#10;</description>
+        <yearpublished value="2004" />
+        <minplayers value="2" />
+        <maxplayers value="5" />
+        <poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="774">
+            <results numplayers="1">
+                <result value="Best" numvotes="1" />
+                <result value="Recommended" numvotes="5" />
+                <result value="Not Recommended" numvotes="514" />
+            </results>
+            <results numplayers="2">
+                <result value="Best" numvotes="66" />
+                <result value="Recommended" numvotes="404" />
+                <result value="Not Recommended" numvotes="187" />
+            </results>
+            <results numplayers="3">
+                <result value="Best" numvotes="199" />
+                <result value="Recommended" numvotes="452" />
+                <result value="Not Recommended" numvotes="33" />
+            </results>
+            <results numplayers="4">
+                <result value="Best" numvotes="517" />
+                <result value="Recommended" numvotes="196" />
+                <result value="Not Recommended" numvotes="12" />
+            </results>
+            <results numplayers="5">
+                <result value="Best" numvotes="257" />
+                <result value="Recommended" numvotes="361" />
+                <result value="Not Recommended" numvotes="40" />
+            </results>
+            <results numplayers="5+">
+                <result value="Best" numvotes="5" />
+                <result value="Recommended" numvotes="17" />
+                <result value="Not Recommended" numvotes="374" />
+            </results>
+        </poll>
+        <playingtime value="60" />
+        <minplaytime value="30" />
+        <maxplaytime value="60" />
+        <minage value="8" />
+        <poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="255">
+            <results>
+                <result value="2" numvotes="0" />
+                <result value="3" numvotes="0" />
+                <result value="4" numvotes="2" />
+                <result value="5" numvotes="4" />
+                <result value="6" numvotes="56" />
+                <result value="8" numvotes="153" />
+                <result value="10" numvotes="33" />
+                <result value="12" numvotes="5" />
+                <result value="14" numvotes="1" />
+                <result value="16" numvotes="0" />
+                <result value="18" numvotes="1" />
+                <result value="21 and up" numvotes="0" />
+            </results>
+        </poll>
+        <poll name="language_dependence" title="Language Dependence" totalvotes="207">
+            <results>
+                <result level="1" value="No necessary in-game text" numvotes="179" />
+                <result level="2" value="Some necessary text - easily memorized or small crib sheet" numvotes="26" />
+                <result level="3" value="Moderate in-game text - needs crib sheet or paste ups" numvotes="1" />
+                <result level="4" value="Extensive use of text - massive conversion needed to be playable" numvotes="0" />
+                <result level="5" value="Unplayable in another language" numvotes="1" />
+            </results>
+        </poll>
+        <link type="boardgamecategory" id="1034" value="Trains" />
+        <link type="boardgamemechanic" id="2041" value="Card Drafting" />
+        <link type="boardgamemechanic" id="2040" value="Hand Management" />
+        <link type="boardgamemechanic" id="2081" value="Route/Network Building" />
+        <link type="boardgamemechanic" id="2004" value="Set Collection" />
+        <link type="boardgamefamily" id="14835" value="Country: USA" />
+        <link type="boardgamefamily" id="17" value="Ticket to Ride" />
+        <link type="boardgameexpansion" id="185197" value="Alaska (fan expansion to Ticket to Ride)" />
+        <link type="boardgameexpansion" id="184013" value="Alice in Wonderland (fan expansion to Ticket to Ride)" />
+        <link type="boardgameexpansion" id="189445" value="Ancient Greece (fan expansion to Ticket to Ride)" />
+        <link type="boardgameexpansion" id="185198" value="Ancient Sicily (fan expansion to Ticket to Ride)" />
+        <link type="boardgameexpansion" id="197040" value="Antarctica (fan expansion to Ticket to Ride)" />
+        <link type="boardgameexpansion" id="252142" value="Antarctica (fan expansion to Ticket to Ride)" />
+        <link type="boardgameexpansion" id="108422" value="Les Aventuriers du rail à Lyon (fan expansion to Ticket to Ride)" />
+        <link type="boardgameexpansion" id="120034" value="Les Aventuriers du rail en Belgique (fan expansion to Ticket to Ride)" />
+        <link type="boardgameexpansion" id="223979" value="Barsoom (fan expansion to Ticket to Ride)" />
+        <link type="boardgameexpansion" id="211230" value="Belarus (fan expansion of Ticket to Ride)" />
+        <link type="boardgameexpansion" id="185200" value="Borneo (fan expansion to Ticket to Ride)" />
+        <link type="boardgameexpansion" id="130427" value="Bretagne (fan expansion for Ticket to Ride)" />
+        <link type="boardgameexpansion" id="114528" value="Britain &amp; Ireland (fan expansion to Ticket To Ride: Europe)" />
+        <link type="boardgameexpansion" id="209430" value="Bulgaria (fan expansion of Ticket to Ride)" />
+        <link type="boardgameexpansion" id="210647" value="Cambodia (fan expansion of Ticket to Ride)" />
+        <link type="boardgameexpansion" id="123300" value="Canada (fan expansion to Ticket to Ride)" />
+        <link type="boardgameexpansion" id="222388" value="Canada 2017 (fan expansion of Ticket to Ride)" />
+        <link type="boardgameexpansion" id="185201" value="Canary Islands (fan expansion to Ticket to Ride)" />
+        <link type="boardgameexpansion" id="70712" value="Castilla y León (fan expansion for Ticket to Ride)" />
+        <link type="boardgameexpansion" id="120037" value="Alsace (fan expansion for Ticket to Ride)" />
+        <link type="boardgameexpansion" id="185202" value="Channel Islands (fan expansion to Ticket to Ride)" />
+        <link type="boardgameexpansion" id="130419" value="China (fan expansion for Ticket to Ride)" />
+        <link type="boardgameexpansion" id="186937" value="Corsica (fan expansion to Ticket to Ride)" />
+        <link type="boardgameexpansion" id="196789" value="Cuba (fan expansion of Ticket to Ride)" />
+        <link type="boardgameexpansion" id="130634" value="Cuba: Region Occidental (fan expansion for Ticket to Ride)" />
+        <link type="boardgameexpansion" id="209093" value="Cyprus (fan expansion of Ticket to Ride)" />
+        <link type="boardgameexpansion" id="209680" value="Czech Republic (fan expansion of Ticket to Ride)" />
+        <link type="boardgameexpansion" id="202082" value="Czech Republic (fan expansion to Ticket to Ride)" />
+        <link type="boardgameexpansion" id="187440" value="Denmark (fan expansion of Ticket to Ride)" />
+        <link type="boardgameexpansion" id="193824" value="Dickensian Intrigue (fan expansion of Ticket to Ride)" />
+        <link type="boardgameexpansion" id="204580" value="East Africa (fan expansion of Ticket to Ride)" />
+        <link type="boardgameexpansion" id="185204" value="East Indies (fan expansion to Ticket to Ride)" />
+        <link type="boardgameexpansion" id="185205" value="Eastern Europe (fan expansion to Ticket to Ride)" />
+        <link type="boardgameexpansion" id="185206" value="Egypt (fan expansion to Ticket to Ride)" />
+        <link type="boardgameexpansion" id="129237" value="The Emerald City (fan expansion to Ticket to Ride)" />
+        <link type="boardgameexpansion" id="203135" value="Estonia (fan expansion of Ticket to Ride)" />
+        <link type="boardgameexpansion" id="123217" value="Extension France (fan expansion for Ticket to Ride)" />
+        <link type="boardgameexpansion" id="185207" value="Falkland Islands (fan expansion to Ticket to Ride)" />
+        <link type="boardgameexpansion" id="198842" value="France (fan expansion for Ticket to Ride)" />
+        <link type="boardgameexpansion" id="200052" value="The Grand Duchy of Luxembourg (fan expansion for Ticket to Ride)" />
+        <link type="boardgameexpansion" id="189868" value="Greece (fan expansion to Ticket to Ride)" />
+        <link type="boardgameexpansion" id="185208" value="Greenland (fan expansion to Ticket to Ride)" />
+        <link type="boardgameexpansion" id="195926" value="Gulf States (Fan expansion of Ticket to Ride)" />
+        <link type="boardgameexpansion" id="184978" value="Hallowe'en (fan expansion to Ticket to Ride)" />
+        <link type="boardgameexpansion" id="192128" value="Hawaii (fan expansion of Ticket to Ride)" />
+        <link type="boardgameexpansion" id="218288" value="Hispaniola (fan expansion for Ticket to Ride)" />
+        <link type="boardgameexpansion" id="194756" value="Hokkaido (fan expansion to Ticket to Ride)" />
+        <link type="boardgameexpansion" id="130183" value="Holland (fan expansion for Ticket to Ride)" />
+        <link type="boardgameexpansion" id="130483" value="Holland Express (fan expansion for Ticket to Ride)" />
+        <link type="boardgameexpansion" id="185209" value="Hungary (fan expansion to Ticket to Ride)" />
+        <link type="boardgameexpansion" id="187441" value="Iberia (fan expansion of Ticket to Ride)" />
+        <link type="boardgameexpansion" id="185210" value="Iceland (fan expansion to Ticket to Ride)" />
+        <link type="boardgameexpansion" id="185211" value="India (fan expansion to Ticket to Ride)" />
+        <link type="boardgameexpansion" id="194176" value="Indiana (fan expansion to Ticket to Ride)" />
+        <link type="boardgameexpansion" id="187442" value="Indochina (fan expansion of Ticket to Ride)" />
+        <link type="boardgameexpansion" id="187447" value="Ireland (fan expansion of Ticket to Ride)" />
+        <link type="boardgameexpansion" id="191856" value="Isle of Man (fan expansion of Ticket to Ride)" />
+        <link type="boardgameexpansion" id="130399" value="Italy (fan expansion for Ticket to Ride)" />
+        <link type="boardgameexpansion" id="130484" value="Italy (fan expansion for Ticket to Ride)" />
+        <link type="boardgameexpansion" id="130485" value="Italy (fan expansion for Ticket to Ride)" />
+        <link type="boardgameexpansion" id="211712" value="Jamaica (fan expansion of Ticket to Ride)" />
+        <link type="boardgameexpansion" id="192367" value="Japan (fan expansion to Ticket To Ride)" />
+        <link type="boardgameexpansion" id="127364" value="Komorów (fan expansion to Ticket to Ride)" />
+        <link type="boardgameexpansion" id="187448" value="Korean Peninsula (fan expansion of Ticket to Ride)" />
+        <link type="boardgameexpansion" id="213959" value="Kosovo (fan expansion of Ticket to Ride)" />
+        <link type="boardgameexpansion" id="200730" value="Latvia (fan expansion of Ticket to Ride)" />
+        <link type="boardgameexpansion" id="207241" value="Liechtenstein (fan expansion of Ticket to Ride)" />
+        <link type="boardgameexpansion" id="134118" value="Lietuva (fan expansion for Ticket to Ride)" />
+        <link type="boardgameexpansion" id="140727" value="London Underground (fan expansion to Ticket to Ride)" />
+        <link type="boardgameexpansion" id="210102" value="Macedonia (fan expansion to Ticket to Ride)" />
+        <link type="boardgameexpansion" id="154440" value="Madagascar (fan expansion to Ticket to Ride)" />
+        <link type="boardgameexpansion" id="193703" value="Madeira (fan expansion of Ticket to Ride)" />
+        <link type="boardgameexpansion" id="187449" value="Mars (fan expansion of Ticket to Ride)" />
+        <link type="boardgameexpansion" id="208660" value="Mascarene Islands (fan expansion of Ticket to Ride)" />
+        <link type="boardgameexpansion" id="207675" value="Mauritius &amp; Réunion (fan expansion of Ticket to Ride)" />
+        <link type="boardgameexpansion" id="192874" value="Mauritius (fan expansion of Ticket to ride)" />
+        <link type="boardgameexpansion" id="212811" value="Moldova (fan expansion of Ticket to Ride)" />
+        <link type="boardgameexpansion" id="212635" value="Montenegro (fan expansion of Ticket to Ride)" />
+        <link type="boardgameexpansion" id="217666" value="Myanmar (fan expansion of Ticket to Ride)" />
+        <link type="boardgameexpansion" id="212045" value="Nepal (fan expansion of Ticket to Ride)" />
+        <link type="boardgameexpansion" id="185203" value="New China (fan expansion to Ticket to Ride)" />
+        <link type="boardgameexpansion" id="187450" value="New York (fan expansion for Ticket to Ride)" />
+        <link type="boardgameexpansion" id="185212" value="New Zealand (fan expansion to Ticket to Ride)" />
+        <link type="boardgameexpansion" id="187451" value="Niagara (fan expansion of Ticket to Ride)" />
+        <link type="boardgameexpansion" id="130421" value="North-Africa (fan expansion for Ticket to Ride)" />
+        <link type="boardgameexpansion" id="185213" value="Northamptonshire (fan expansion to Ticket to Ride)" />
+        <link type="boardgameexpansion" id="192452" value="Ohio (fan expansion to Ticket to Ride)" />
+        <link type="boardgameexpansion" id="134079" value="Östergötland in the 1930's (fan expansion to Ticket to Ride)" />
+        <link type="boardgameexpansion" id="130397" value="Österreich Karte: Zug um Zug (fan expansion for Ticket to Ride)" />
+        <link type="boardgameexpansion" id="191003" value="Poland (Fan expansion of Ticket to Ride)" />
+        <link type="boardgameexpansion" id="135440" value="Québec et l'Est du Canada (fan expansion to Ticket to Ride)" />
+        <link type="boardgameexpansion" id="130428" value="Quebec Province (fan expansion for Ticket to Ride)" />
+        <link type="boardgameexpansion" id="130632" value="Reise durch Ägypten (fan expansion for Ticket to Ride)" />
+        <link type="boardgameexpansion" id="208157" value="Réunion &amp; Mauritius (fan expansion of Ticket to Ride)" />
+        <link type="boardgameexpansion" id="208623" value="Rodrigues &amp; Mauritius (fan expansion of Ticket to Ride)" />
+        <link type="boardgameexpansion" id="202306" value="Roman Italy (fan expansion of Ticket to Ride)" />
+        <link type="boardgameexpansion" id="153997" value="Russian Empire 1912 (fan expansion to Ticket to Ride)" />
+        <link type="boardgameexpansion" id="130422" value="Scandinavia (fan expansion to Ticket to Ride)" />
+        <link type="boardgameexpansion" id="215212" value="Scandinavia (fan expansion to Ticket to Ride)" />
+        <link type="boardgameexpansion" id="185214" value="Scilly Isles (fan expansion to Ticket to Ride)" />
+        <link type="boardgameexpansion" id="64262" value="Seattle (fan expansion for Ticket to Ride)" />
+        <link type="boardgameexpansion" id="206639" value="Serbia (fan expansion of Ticket to Ride)" />
+        <link type="boardgameexpansion" id="185215" value="Slovakia (fan expansion to Ticket to Ride)" />
+        <link type="boardgameexpansion" id="205628" value="Slovenia (fan expansion of Ticket to Ride)" />
+        <link type="boardgameexpansion" id="185216" value="South America (fan expansion to Ticket to Ride)" />
+        <link type="boardgameexpansion" id="216561" value="South Korea (fan expansion of Ticket to Ride)" />
+        <link type="boardgameexpansion" id="159347" value="South-East Sweden 1925 (fan expansion for Ticket to Ride)" />
+        <link type="boardgameexpansion" id="192548" value="Sri Lanka (fan expansion of Ticket to Ride)" />
+        <link type="boardgameexpansion" id="130182" value="Sweden (fan expansion for Ticket to Ride)" />
+        <link type="boardgameexpansion" id="187452" value="Texas (fan expansion for Ticket to Ride)" />
+        <link type="boardgameexpansion" id="220018" value="Thailand (fan expansion of Ticket to Ride)" />
+        <link type="boardgameexpansion" id="130398" value="Ticket to Finland (fan expansion for Ticket to Ride)" />
+        <link type="boardgameexpansion" id="106637" value="Ticket to Ride Map Collection: Volume 1 – Team Asia &amp; Legendary Asia" />
+        <link type="boardgameexpansion" id="106645" value="Ticket to Ride Map Collection: Volume 2 – India &amp; Switzerland" />
+        <link type="boardgameexpansion" id="131188" value="Ticket to Ride Map Collection: Volume 3 – The Heart of Africa" />
+        <link type="boardgameexpansion" id="147938" value="Ticket to Ride Map Collection: Volume 4 – Nederland" />
+        <link type="boardgameexpansion" id="182078" value="Ticket to Ride Map Collection: Volume 5 – United Kingdom &amp; Pennsylvania" />
+        <link type="boardgameexpansion" id="233891" value="Ticket to Ride Map Collection: Volume 6 – France &amp; Old West" />
+        <link type="boardgameexpansion" id="89848" value="Ticket to Ride: Alvin &amp; Dexter" />
+        <link type="boardgameexpansion" id="53383" value="Ticket to Ride: Europa 1912" />
+        <link type="boardgameexpansion" id="13297" value="Ticket to Ride: Mystery Train Expansion" />
+        <link type="boardgameexpansion" id="30746" value="Ticket to Ride: Switzerland" />
+        <link type="boardgameexpansion" id="38454" value="Ticket to Ride: The Dice Expansion" />
+        <link type="boardgameexpansion" id="24439" value="Ticket to Ride: USA 1910" />
+        <link type="boardgameexpansion" id="186205" value="Transylvania (fan expansion to Ticket to Ride)" />
+        <link type="boardgameexpansion" id="190161" value="Turkey (fan expansion to Ticket to Ride)" />
+        <link type="boardgameexpansion" id="119897" value="UK (fan expansion to Ticket to Ride)" />
+        <link type="boardgameexpansion" id="130481" value="UK (fan expansion to Ticket to Ride)" />
+        <link type="boardgameexpansion" id="130482" value="UK Cynical Edition (fan expansion for Ticket to Ride)" />
+        <link type="boardgameexpansion" id="137427" value="UK version 2.0 (fan expansion to Ticket to Ride)" />
+        <link type="boardgameexpansion" id="142110" value="Ukraine (fan expansion to Ticket to Ride)" />
+        <link type="boardgameexpansion" id="188748" value="Ukraine (fan expansion to Ticket to Ride)" />
+        <link type="boardgameexpansion" id="115070" value="USSR (fan expansion for Ticket to Ride)" />
+        <link type="boardgameexpansion" id="185727" value="Wales (fan expansion to Ticket to Ride)" />
+        <link type="boardgameexpansion" id="193323" value="West Country (UK) (fan expansion of Ticket to Ride)" />
+        <link type="boardgameexpansion" id="185217" value="West Indies (fan expansion to Ticket to Ride)" />
+        <link type="boardgameexpansion" id="185218" value="Western Isles (fan expansion to Ticket to Ride)" />
+        <link type="boardgameexpansion" id="130635" value="Wild Wild West (fan expansion for Ticket to Ride)" />
+        <link type="boardgameexpansion" id="193206" value="Winnie-the Pooh (fan expansion of Ticket to Ride)" />
+        <link type="boardgameexpansion" id="194418" value="Zanzibar: Pemba (fan expansion of Ticket to Ride)" />
+        <link type="boardgameexpansion" id="194417" value="Zanzibar: Unguja (fan expansion of Ticket to Ride)" />
+        <link type="boardgamecompilation" id="160069" value="Ticket to Ride: 10th Anniversary" />
+        <link type="boardgameimplementation" id="258140" value="Les aventuriers du rail express" />
+        <link type="boardgameimplementation" id="244525" value="Ticket To Ride Demo" />
+        <link type="boardgameimplementation" id="14996" value="Ticket to Ride: Europe" />
+        <link type="boardgameimplementation" id="205125" value="Ticket to Ride: First Journey (U.S.)" />
+        <link type="boardgameimplementation" id="225244" value="Ticket to Ride: Germany" />
+        <link type="boardgameimplementation" id="21348" value="Ticket to Ride: Märklin" />
+        <link type="boardgameimplementation" id="253284" value="Ticket to Ride: New York" />
+        <link type="boardgameimplementation" id="31627" value="Ticket to Ride: Nordic Countries" />
+        <link type="boardgameimplementation" id="202670" value="Ticket to Ride: Rails &amp; Sails" />
+        <link type="boardgameimplementation" id="34127" value="Ticket to Ride: The Card Game" />
+        <link type="boardgamedesigner" id="9" value="Alan R. Moon" />
+        <link type="boardgameartist" id="12519" value="Cyrille Daujean" />
+        <link type="boardgameartist" id="11886" value="Julien Delval" />
+        <link type="boardgamepublisher" id="1027" value="Days of Wonder" />
+        <link type="boardgamepublisher" id="23043" value="ADC Blackfire Entertainment" />
+        <link type="boardgamepublisher" id="934" value="Bandai" />
+        <link type="boardgamepublisher" id="6784" value="Bergsala Enigma" />
+        <link type="boardgamepublisher" id="34501" value="Boardgame Space" />
+        <link type="boardgamepublisher" id="2973" value="Edge Entertainment" />
+        <link type="boardgamepublisher" id="15605" value="Galápagos Jogos" />
+        <link type="boardgamepublisher" id="5530" value="Giochi Uniti" />
+        <link type="boardgamepublisher" id="18852" value="Hobby World" />
+        <link type="boardgamepublisher" id="3218" value="Lautapelit.fi" />
+        <link type="boardgamepublisher" id="11107" value="Nordic Games GmbH" />
+        <link type="boardgamepublisher" id="7466" value="Rebel" />
+        <link type="boardgamepublisher" id="33998" value="Siam Board Games" />
+        <link type="boardgamepublisher" id="9234" value="Swan Panasia Co., Ltd." />
+        <videos total="137">
+            <video id="204489" title="Ticket to Ride by Days of Wonder: Game Demo" category="interview" language="English" link="http://www.youtube.com/watch?v=pITiDv9PInE" username="ComicWow" userid="1406033" postdate="2019-01-15T14:48:26-06:00" />
+            <video id="201116" title="Board Game Tutorial: Learn How (Not) To Play Ticket To Ride" category="instructional" language="English" link="http://www.youtube.com/watch?v=xRDITzcDGbo" username="cheeseviking" userid="502931" postdate="2018-12-15T13:55:35-06:00" />
+            <video id="200289" title="Zug um Zug - Days of Wonder - Regelerklärung - Ticket to Ride" category="instructional" language="German" link="http://www.youtube.com/watch?v=woB32-mZLW4" username="Brettspiel Guru" userid="1959498" postdate="2018-12-09T05:05:02-06:00" />
+            <video id="199431" title="Dad vs Daughter - Digital Dad - Ticket to Ride - iOS App Review" category="review" language="English" link="http://www.youtube.com/watch?v=41vIGKa7WOU" username="Brezman" userid="777272" postdate="2018-12-02T07:30:30-06:00" />
+            <video id="198390" title="Top 5 Games Like Ticket to Ride" category="other" language="English" link="http://www.youtube.com/watch?v=FPBVBjFtWT0" username="s3vn" userid="631539" postdate="2018-11-23T19:20:38-06:00" />
+            <video id="197296" title="Ticket to Ride in 2 Minutes" category="other" language="English" link="http://www.youtube.com/watch?v=JLmFuN9qI5g" username="TabletopGameGallery" userid="1962861" postdate="2018-11-15T14:32:53-06:00" />
+            <video id="195509" title="Ticket to Ride Review" category="review" language="English" link="http://www.youtube.com/watch?v=oo-tnQno2Lo" username="Sarahsgot5" userid="1312310" postdate="2018-11-01T12:13:47-05:00" />
+            <video id="188450" title="Ticket to Ride | Como Jugar + Gameplay ! [Steam]" category="instructional" language="Spanish" link="http://www.youtube.com/watch?v=phCHlk0Woqc" username="Nrym" userid="1533954" postdate="2018-08-30T22:33:56-05:00" />
+            <video id="187181" title="Pounds and Inches: 409 and 157, Ticket to Ride" category="review" language="English" link="http://www.youtube.com/watch?v=70phW25JoSw" username="skaanimal22" userid="818026" postdate="2018-08-20T11:58:58-05:00" />
+            <video id="178750" title="How to Play: Ticket to Ride" category="instructional" language="English" link="http://www.youtube.com/watch?v=eBjC9DGb1Ek" username="Kardkid" userid="1650482" postdate="2018-06-04T15:44:03-05:00" />
+            <video id="178040" title="Why Ticket to Ride is One of the Most Important Tabletop Games Ever Made" category="other" language="English" link="http://www.youtube.com/watch?v=lC78bBgqtcI" username="Fasttortoisegames" userid="828685" postdate="2018-05-28T00:51:27-05:00" />
+            <video id="176826" title="How To Play - Ticket To Ride" category="instructional" language="English" link="http://www.youtube.com/watch?v=a6cICFEy-hY" username="TheDragonsTomb" userid="1857393" postdate="2018-05-16T11:04:52-05:00" />
+            <video id="176112" title="Ticket to Ride de Days of Wonder" category="instructional" language="Spanish" link="http://www.youtube.com/watch?v=GrUuQQdrIxQ" username="ellogan" userid="265577" postdate="2018-05-10T15:35:07-05:00" />
+            <video id="176082" title="The Purge: # 1793 Ticket to Ride: Meeple Source Upgrades" category="review" language="English" link="http://www.youtube.com/watch?v=3zfMr1NJes0" username="william4192" userid="296644" postdate="2018-05-10T09:31:51-05:00" />
+            <video id="175388" title="The Purge: # 1786 Ticket to Ride: The classic game of building trains and collecting cards " category="review" language="English" link="http://www.youtube.com/watch?v=RP4msBGXvEg" username="william4192" userid="296644" postdate="2018-05-04T12:47:35-05:00" />
+        </videos>
+        <comments page="1" totalitems="10951">
+            <comment username="-Johnny-" rating="6" value="Nice at first, but feels empty after a while." />
+            <comment username="0 1 1 2 3 5 8" rating="5.9" value="Meh, it&apos;s okay. Rating seems about right. Could play again I guess but if I never play it again I wouldn&apos;t even miss it." />
+            <comment username="00daniel00" rating="9" value="Incredible how a simple game as this one can be so fun, it just work perfectly the definitive gateway game. I rest my case." />
+            <comment username="1000rpm" rating="8" value="Not very exciting, but strangely addictive trying to complete those routes.
+Last game I played I was clearly leading and sabotaged myself comprehensively taking 2 more tickets.  Doh!" />
+            <comment username="100pcBlade" rating="8" value="Scales well 2-5 players, beautifully produced, great introductory game. A bit of luck around the ticket draw but this is fine for this length and weight of game (light-middle). An essential purchase for anyone who plays with casual gamers or for serious gamers who occassionally like something lighter. The Europe map provides some variety and the ticket distribution is an improvement but the rest of the new rules detract from the game. The passenger rules in Marklin are excellent but make the game that little bit too long and the board is a bit too biased to completing tickets. I probably prefer the base game particularly now the 1910 cards have been released" />
+            <comment username="123guy" rating="7.9" value="Good game.  Easy to get non-geeks involved." />
+            <comment username="16 Ft Pauly" rating="N/A" value="10th anniversary ed." />
+            <comment username="1amgreg77" rating="8.8" value="Fun, lighthearted game for 4-5 players.  Good flow, decent strategy.  Hits a strange note between strategy and luck.  For the more part, strategy can win you the game.  That is, unless you get the short routes...  Or you are cut off...
+Anyway, that&apos;s why it&apos;s best for non-gamers and certainly worth a try for gamers too." />
+            <comment username="1awesomeguy" rating="5" value="Meh..." />
+            <comment username="1blindI" rating="7" value="Great game to play with non-gamers." />
+            <comment username="1CHNUP" rating="5" value="I know this is one of the most popular games that Board game geek can advertise for, but I don&apos;t enjoy it nearly as much as the other Euro games on my list. It seems like there is less interactions with people than other Euro games, which is what I find appealing about them.
+
+" />
+            <comment username="1copse" rating="4" value="Meh." />
+            <comment username="1nf1n1ty" rating="7" value="I love the simplicity yet still has enough strategy to be interesting. Great family game" />
+            <comment username="1pecac" rating="7.5" value="Great game for variety of people.  Awesome &quot;screw you&quot; mechanics and casual enough for non-gamers.
+" />
+            <comment username="1point21gigawatts" rating="5" value="Played this game at least 20 times on the iOS app but I have no desire to ever play it again. I like games with a lot more strategy than this one offers." />
+            <comment username="22764636" rating="6.25" value="was good at the beginning when I was not so into boardgaming. good filler or good to play with new gamers." />
+            <comment username="2d20" rating="N/A" value="We really like the series. Looking forward to stopping off in Calgary ;)" />
+            <comment username="2ndinBeautyContest" rating="5" value="Only played with 2 and it&apos;s rubbish. Would like to try with more. With more it&apos;s not rubbish. But it&apos;s not that good either. Really don&apos;t understand the love for this one.
+" />
+            <comment username="2ndPlace" rating="9" value="Put this baby in front of folks that only know about checkers and risk and they go crazy.  Where can I get this they say.  I have played this over 300 times online and still have a great time." />
+            <comment username="2ombie" rating="7" value="iOS version" />
+            <comment username="30ought6" rating="N/A" value="Junis" />
+            <comment username="3choplex" rating="10" value="I am always up for ticket to ride, just a perfect game." />
+            <comment username="3dicebombers" rating="7" value="I have played this one many more times than I&apos;ve recorded.  I think it is a fine gateway game, but I do not find it particularly engaging nor strategic.  The value of laying down 5 or 6 link tracks is too high compared to ticket completion, which essentially breaks the game." />
+            <comment username="3kindsofsalt" rating="10" value="Belongs on every game shelf, everywhere." />
+            <comment username="3Minotaur3" rating="N/A" value="iOS version..." />
+            <comment username="42vines" rating="9.4" value="what to say, its great simple but allows strategy, major addictiveness and great to look at." />
+            <comment username="48cg89tw" rating="9" value="Very good game. Not too hard. Not TOO competitive until the end when you&apos;re all scavenging for points (unless two players have similar goals ;) ). I&apos;d totally play it again." />
+            <comment username="49xjohn" rating="8" value="Great tension in this game, and easy to learn and explain to newcomers." />
+            <comment username="4Corners" rating="6" value="Decent, light simple game, but everyone quickly tires of this one.  I use the same strategy every time (take the lowest value tickets, hoard cards to play on the biggest tracks) and rarely lose.  Why is this game so celebrated?
+
+Own the [boardgame=24439]USA 1910[/boardgame], [boardgame=89848]Alvin &amp; Dexter[/boardgame], [boardgame=106637]Team Asia &amp; Legendary Asia[/boardgame], [boardgame=106645]India &amp; Switzerland[/boardgame], [boardgame=131188]Heart of Africa[/boardgame], [boardgame=147938]Nederland[/boardgame], [boardgame=182078]United Kingdom &amp; Pennsylvania[/boardgame] and [boardgame=13297]Mystery train[/boardgame] expansions." />
+            <comment username="4n6gamer" rating="N/A" value="A family favorite. Untouchable." />
+            <comment username="4ndrz" rating="10" value="Love it. The game is so colorful and charming." />
+            <comment username="4th stringer" rating="8.5" value="Fun, good gateway that I can play with lots of people, but I want more depth myself.  Figure out if the people you are playing with can handle blocking.
+" />
+            <comment username="4wire" rating="7" value="I&apos;ll play... but only on special occasions. Good game for casual gamers. Much better than monopoly :)" />
+            <comment username="521tiger" rating="7.5" value="at the kid&apos;s home - played it later with the neighbours" />
+            <comment username="55Badger" rating="9" value="A great fun game even for those who dont normally enjoy board games." />
+            <comment username="5parky mo moos" rating="N/A" value="Introduced to me by a friend, on xboxlive. Now I can return the favour, by getting him the actual game it was based upon. He got hooked to the xbox version, now he can enjoy it how it was meant to be played." />
+            <comment username="5pencer" rating="8" value="Great family game" />
+            <comment username="5th Beatles" rating="6" value="reviewed on my blog." />
+            <comment username="5ummoning" rating="5" value="Nothing speciale. Simple and easy but do not grows with the amount of games." />
+            <comment username="7he Architect" rating="8" value="Absolutely perfect family weight game with room for skill growth. Quick to teacher and I&apos;ve yet to play with someone who&apos;s had a bad time. I think I&apos;ll forever love TTR!" />
+            <comment username="7rederick" rating="7" value="Fun game to play with at least 4 players. The game is simple yet well balanced between strategy, timing and chance (cards) to make it fun and enjoyable without being too heavy and long to learn." />
+            <comment username="807johnilkka" rating="7" value="Along with Catan, this is one of the evergreen/gateways of modern board games. You place trains on tracks in order to complete your tickets and score points. Simple straightforward game." />
+            <comment username="85bears" rating="8.5" value="Great game, totally addicting
+" />
+            <comment username="8one6" rating="7" value="This is a fun game to play on occasion. " />
+            <comment username="8thDay" rating="8" value="Took me forever to finally get a copy of this, and I am glad that I did. I saw the reviews and BGG rating but every time I was close to dropping the cash for it, I would look at the components, look at the theme, and go, &quot;erm, no.&quot; Turns out it is a well made game with a tight system that is accessible to nearly everyone no matter what their level of game experience.
+Moral? Do not judge a book (or game) by it&apos;s cover." />
+            <comment username="95after5" rating="10" value="simple rules however multiple layers of strategy, beautifull components!
+
+Posojeno Jure" />
+            <comment username="9snick4" rating="10" value="I&apos;m undefeated at this game (from my wife...) But then she beat me (ONCE!) at Nordic Countries.
+She keeps trying, though. Doesn&apos;t matter how many times I win. SHe really likes this game!" />
+            <comment username="A Strange Aeon" rating="5" value="It&apos;s an okay game, but pretty simple.  Niagara makes a much better gate way game in my opinion.  " />
+            <comment username="A1win" rating="6.5" value="Uninteresting theme, but good mechanics." />
+            <comment username="a2greg" rating="8.5" value="There&apos;s a few different routes to victory. I like that you can throw in some defensive play as well as the typical offensive play in such games. Light on player interaction and nothing particularly new about the game system but it&apos;s delivered in a very appealing package by Days of Wonder. And I love a pleasing train theme." />
+            <comment username="a37345735" rating="7" value="4,5" />
+            <comment username="a4rino" rating="7.8" value="A fun gateway game, mostly played with my family." />
+            <comment username="aaarg_ink" rating="8" value="150909 As much as I respect the design, if I&apos;m never playing it or pulling it out to be played....
+
+130929  After TtR Marklin I really do respect the orignal a lot.  With the 1910 expansion its a great game it can be played tight and nasty (using the original deck after you&apos;ve developed a knowledge of the ticket cards) or with all the cards in play you can just play fun and loose.  Just an absolutely great gateway and more game.
+
+120910 After playing TtR europe, I&apos;ve come away with a newfound respect for the elegance of this game.  I think it shines when played tight and nasty.  Which unfortunately is not the way my girlfriend prefers to play.
+
+100102 may be a bit light for my taste, but one of the first one to bring out if its with non-gamers." />
+            <comment username="aadrian13" rating="6" value="iOS" />
+            <comment username="aaj94" rating="5" value="Ticket to Ride is a modern-day classic, deserves to be in most collections as a good intro set-collection game.
+
+Ticket to Ride is a classic along the level of Catan, and I definitely enjoy its simplicity and elegance. It&apos;s a very simple mechanic, but the player competition and the unknown aspect of the cards makes it different every time.
+
+Basically, players are competing to build train routes along different colored tracks throughout the United States. They accomplish this by drawing cards of the correct color, then claiming routes by placing their own trains along the route.
+
+You earn points by completing Tickets (preset routes that you draw from the ticket deck), placing routes, and winning the longest connected route, which is similar to the Longest Road in Settlers of Catan.
+
+Overall, I enjoy Ticket to Ride, but I don&apos;t feel the need to have it in my collection. It&apos;s definitely worth some plays even if you&apos;re a hardcore gamer, and the rules can be gone over in about fifteen minutes. This makes Ticket to Ride a great choice for new or reluctant gamers, since it&apos;s really easy to have a fun time with it. Personally, I prefer introducing people with [thing=123540][/thing] instead." />
+            <comment username="aalemos" rating="8" value="great gateway game =)" />
+            <comment username="aardball" rating="7.1" value="Light enough for family game night, improved (IMHO) in subsequent versions (Europe, Nordic, Marklin, et al.)" />
+            <comment username="Aardvark" rating="7" value="Has risen from a 6 to a 7 after several plays  For such a simple game, and one that contains a lot of luck there is quite a bit of turn angst (especially in the endgame), a quality I definitely like in a game.  I certainly want to give it more plays.  Overall a good game with some flaws.  But even with its flaws I always seem to enjoy myself." />
+            <comment username="Aardvarkius" rating="7" value="BIN: Not for sale/trade" />
+            <comment username="aaron444" rating="6" value="Enjoyed this one.  The expansion adds a little more depth to the game." />
+            <comment username="aaronbush100" rating="7" value="Own the iPad app. Good port of the board game. Not my favorite, but fun to go to occasionally. Points dinged more out of disinterest than the quality of the game." />
+            <comment username="Aarong3eason" rating="8" value="Android" />
+            <comment username="Aaronious" rating="6.5" value="Welcome to Euro games 101. If you look at the syllabus, you will see that in this class we will be learning about victory points and competitive strategy... Always a fun game to play!" />
+            <comment username="AaronJH" rating="7" value="A great family game. Some element of luck, and still a lot of strategy.
+Newbies can get a lucky win every now and then, but a good player will win a majority of games. " />
+            <comment username="AaronKI" rating="8" value="Great fun when you can round up three or more players, and my go-to game for trying to get non-gamers to play something. " />
+            <comment username="aaronseeber" rating="8" value="A modern classic." />
+            <comment username="aaronsibley" rating="6" value="Great intro game..done way too much of it." />
+            <comment username="Aarontu" rating="7.8" value="A good, light, fun family game; it is easy to learn, not overly confrontational, has a good dose of luck but still a decent amount of strategy required, looks nice and cool and attractive on the table, and has fun little bits to play with when you&apos;re waiting for your turn. I like trains." />
+            <comment username="aauten" rating="10" value="Favorite game and looking to buy more maps. the expansion it worth it for the bigger cards alone." />
+            <comment username="aautio" rating="8" value="A great family game. Fun and easy to learn and play. A very nice, well-rounded game.
+
+iPhone/iPad app version is sheer awesomeness, a 9+ easily. " />
+            <comment username="aaxiom" rating="7.5" value="It&apos;s a light train game... very light. That&apos;s about it." />
+            <comment username="abadiadelcrimen" rating="7" value="Facil de aprender, rapido de jugar y muy entretenido. Ideal para inicar a profanos del tablero" />
+            <comment username="abarb" rating="6" value="Play this a bunch when family is around...after your first game it loses it&apos;s fun." />
+            <comment username="abbeynormal" rating="N/A" value="Not my favorite game to get out, but once I start playing it, I usually get really into it.  It&apos;s a simple mechanic that can lead to ruined friendships if you&apos;re not careful." />
+            <comment username="ABCafe" rating="N/A" value="B1" />
+            <comment username="abeheron" rating="7" value="Good game and an all time favorite among pretty much everyone I know, which makes it the best gateway I know. I am a bit bored of it at the moment, but this score may change after getting an expansion (or two)." />
+            <comment username="Aberdonian" rating="7" value="This was my gateway in to board gaming as a hobby.  I owned other games before but they were if we didn&apos;t feel like playing magic.  This game opened the door to making board games a hobby.
+" />
+            <comment username="Aberrix" rating="7" value="I really enjoy this game! it&apos;s a pretty light weight game which really fits the bill some times, everyone who plays it really seems to enjoy it. It&apos;s a rummy-type game where you collect cards of the same colors and then claiming routes. The small cards while annoying at first really don&apos;t seem to bother me once the game gets going but I still wish they could&apos;ve just included full sized cards instead of charging you $20 for the 1910 expansion which is basically just full sized cards... None the less, I still really enjoy this game." />
+            <comment username="abgg" rating="N/A" value="brendanm" />
+            <comment username="abismald" rating="5" value="The more I play, the less I want to." />
+            <comment username="abonosky" rating="9" value="Oh how wonderful." />
+            <comment username="aboo050" rating="7" value="great filler" />
+            <comment username="aboveriver" rating="7.5" value="Great gateway game!" />
+            <comment username="Abraxox" rating="5" value="I just don&apos;t like this game. The original version is even worse than the Europe-variant." />
+            <comment username="ABrissey" rating="6" value="It&apos;s a train game, my wife loves it, I could take it or leave it. But, it does serve as a good starting point for teaching new gamers." />
+            <comment username="abrocker" rating="7" value="As everyone says, it is a great gateway game.  Good production value and fun game play.  Less strategy then I prefer though.
+Bumping this to an 8.  Played it with my wife and a couple of bots.  Had a blast. :)" />
+            <comment username="absenthero" rating="8" value="Great blend of strategy and card draw chance. Easy for kids and families to learn and play. There are several versions and expansions of this (now) classic board game, so I would suggest starting with the original (United States) map version.
+
+Would definitely recommend to novice and experienced gamers alike!" />
+            <comment username="Abysmul" rating="8" value="Must have for any collection. What more needs said, it&apos;s a classic in the truest since of the word." />
+            <comment username="aCardboardBox" rating="7" value="Super passive aggressive game of building around people.  This is a very quiet game where people curse at other&apos;s success.  It&apos;s streamlined enough to where the game is still enjoyable though." />
+            <comment username="Accession" rating="9" value="Highly recommended for anyone new to the hobby. Suitable choice as a gateway game. Mechanics are simple yet elegant. Rules are easy to learn." />
+            <comment username="Accursed Pilgrim" rating="7" value="Solid strategy game.  Definitely a must have family title.
+
+My 8 year old daughter caught on almost  immediately in her first play and even  developed deeper strategy in that first game to stab me repeatedly in the back.  Great times!" />
+            <comment username="acdcatino" rating="8" value="Added to Geeklist" />
+            <comment username="ace1012003" rating="7" value="Love the game, though the USA map just doesn&apos;t seem to fit the game the best. " />
+            <comment username="aceadean" rating="7.5" value="got this for my birthday and it&apos;s a hit." />
+            <comment username="acecase" rating="7" value="Granted it&apos;s a light, gateway style game but it is good for what it is." />
+            <comment username="acedaryl1" rating="7" value="A very respectable and solid game. Great gateway game but it has been eclipsed by other games in my house." />
+            <comment username="acekim" rating="7" value="At first did not seem as interesting as other games, but over time I have appreciated its ability to draw nongamers into playing." />
+            <comment username="acellama88" rating="8" value="Family friendly game.  Easy to learn and fun to play." />
+            <comment username="AceOf86" rating="7" value="I enjoy it because I can play it with anyone.  There&apos;s a lot of luck involved though." />
+            <comment username="aceraxon" rating="7" value="Beautiful game, great fun, can be easy going or fierce.  This game can really turn cutthroat in a heart-beat too.  An awesome game that I&apos;m glad to have in my collection.  Not as balanced as the Europe version, but a superb gateway game." />
+        </comments>
+        <statistics page="1">
+            <ratings >
+                <usersrated value="58776" />
+                <average value="7.45277" />
+                <bayesaverage value="7.35163" />
+                <ranks>
+                    <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="136" bayesaverage="7.35163" />
+                    <rank type="family" id="5499" name="familygames" friendlyname="Family Game Rank" value="16" bayesaverage="7.35148" />
+                </ranks>
+                <stddev value="1.2836" />
+                <median value="0" />
+                <owned value="76575" />
+                <trading value="738" />
+                <wanting value="678" />
+                <wishing value="5270" />
+                <numcomments value="10950" />
+                <numweights value="4228" />
+                <averageweight value="1.8652" />
+            </ratings>
+        </statistics>
+    </item>
+    <item type="boardgame" id="9210">
+        <thumbnail>https://cf.geekdo-images.com/thumb/img/rlsrqF9_0VV9Vu-EO2rWTvsxrNg=/fit-in/200x150/pic38782.jpg</thumbnail>
+        <image>https://cf.geekdo-images.com/original/img/cesGRqRKmaJNTUqcjhKi6P3nlmE=/0x0/pic38782.jpg</image>
+        <name type="primary" sortindex="1" value="Agentenjagd" />
+        <description>The game is created from the movie &amp;quot;The Third Man&amp;quot;. The story takes place in Vienna after WWII.&amp;#10;&amp;#10;In the movie there are famous scenes about finding the culprit in the sewer system. One player is the culprit, the others are the pursuers.&amp;#10;&amp;#10;The game has two phases. Phase 1 consists of building the sewerage system with tiles. The players have to draw the sewerage labyrinth on paper.&amp;#10;&amp;#10;In phase 2 the culprit has to reach the sewer exit on the other side of the board.&amp;#10;&amp;#10;The other players have to find him in the labyrinth before he reaches the exit. The culprit makes his moves by writing them down on paper while  the pursuers  move their pieces on the board.&amp;#10;&amp;#10;</description>
+        <yearpublished value="1988" />
+        <minplayers value="3" />
+        <maxplayers value="5" />
+        <poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="1">
+            <results numplayers="1">
+                <result value="Best" numvotes="0" />
+                <result value="Recommended" numvotes="0" />
+                <result value="Not Recommended" numvotes="0" />
+            </results>
+            <results numplayers="2">
+                <result value="Best" numvotes="0" />
+                <result value="Recommended" numvotes="0" />
+                <result value="Not Recommended" numvotes="0" />
+            </results>
+            <results numplayers="3">
+                <result value="Best" numvotes="0" />
+                <result value="Recommended" numvotes="0" />
+                <result value="Not Recommended" numvotes="0" />
+            </results>
+            <results numplayers="4">
+                <result value="Best" numvotes="0" />
+                <result value="Recommended" numvotes="1" />
+                <result value="Not Recommended" numvotes="0" />
+            </results>
+            <results numplayers="5">
+                <result value="Best" numvotes="1" />
+                <result value="Recommended" numvotes="0" />
+                <result value="Not Recommended" numvotes="0" />
+            </results>
+            <results numplayers="5+">
+                <result value="Best" numvotes="0" />
+                <result value="Recommended" numvotes="0" />
+                <result value="Not Recommended" numvotes="0" />
+            </results>
+        </poll>
+        <playingtime value="60" />
+        <minplaytime value="60" />
+        <maxplaytime value="60" />
+        <minage value="10" />
+        <poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="0">
+        </poll>
+        <poll name="language_dependence" title="Language Dependence" totalvotes="0">
+        </poll>
+        <link type="boardgamecategory" id="1081" value="Spies/Secret Agents" />
+        <link type="boardgamecategory" id="1086" value="Territory Building" />
+        <link type="boardgamemechanic" id="2023" value="Cooperative Play" />
+        <link type="boardgamemechanic" id="2072" value="Dice Rolling" />
+        <link type="boardgamemechanic" id="2002" value="Tile Placement" />
+        <link type="boardgamedesigner" id="3127" value="I and D" />
+        <link type="boardgamedesigner" id="782" value="Christian Raffeiner" />
+        <link type="boardgamepublisher" id="22" value="Piatnik" />
+        <videos total="0">
+        </videos>
+        <comments page="1" totalitems="4">
+            <comment username="catsy83" rating="N/A" value="I don&apos;t remember when exactly I played this game, but I know I was still a kid - maybe 12 or 13 years old. It was tooooons of fun." />
+            <comment username="Joeyeti" rating="7" value="A nice game for a small group of players - has tension and sewer-building. I like it!" />
+            <comment username="sisteray" rating="N/A" value="Don&apos;t confuse this with the hasbro game of the same name...I did.  Two different pictures of two different games with the same name." />
+            <comment username="Walt Mulder" rating="7.5" value="Another thematic &quot;Where&apos;s Waldo&quot; game in the sewers." />
+        </comments>
+        <statistics page="1">
+            <ratings >
+                <usersrated value="10" />
+                <average value="5.65" />
+                <bayesaverage value="0" />
+                <ranks>
+                    <rank type="subtype" id="1" name="boardgame" friendlyname="Board Game Rank" value="Not Ranked" bayesaverage="Not Ranked" />
+                </ranks>
+                <stddev value="1.61323" />
+                <median value="0" />
+                <owned value="39" />
+                <trading value="2" />
+                <wanting value="2" />
+                <wishing value="4" />
+                <numcomments value="4" />
+                <numweights value="1" />
+                <averageweight value="2" />
+            </ratings>
+        </statistics>
+    </item>
+</items>

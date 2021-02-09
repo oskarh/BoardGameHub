@@ -1,0 +1,29 @@
+*.iml
+.gradle
+/local.properties
+/.idea/navEditor.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+
+# Built application files
+*.apk
+
+# Generated files
+bin/
+gen/
+out/
+
+# Log Files
+*.log
+
+# Android Studio Navigation editor temp files
+.navigation/
+
+# Android Studio captures folder
+captures/
+
+# Intellij
+.idea/
+/app/google-services.json

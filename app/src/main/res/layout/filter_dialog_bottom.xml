@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/secondaryTextColor"
+        android:text="@string/filter_board_games"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/games_shown_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:buttonTint="@color/colorAccent"
+        android:text="@string/show_games"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="16sp" />
+    <!--android:buttonTint="@color/colorPrimaryDark"-->
+
+    <CheckBox
+        android:id="@+id/expansions_shown_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/colorAccent"
+        android:text="@string/show_expansions"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/only_show_published_year_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/colorAccent"
+        android:text="@string/only_show_published"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="16sp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/year_chooser_root"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/start_year_hint"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+                <com.shawnlin.numberpicker.NumberPicker
+                    android:id="@+id/start_year_picker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    app:np_dividerColor="@color/colorAccent"
+                    app:np_formatter="@string/year_formatter"
+                    app:np_height="180dp"
+                    app:np_max="2020"
+                    app:np_min="1900"
+                    app:np_selectedTextColor="@color/primaryTextColor"
+                    app:np_textColor="@color/secondaryTextColor"
+                    app:np_textSize="20sp"
+                    app:np_selectedTextSize="20sp"
+                    app:np_value="1980"
+                    app:np_width="64dp"
+                    app:np_wrapSelectorWheel="false" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="32dp"
+                android:layout_height="1dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:text="@string/end_year_hint"
+                    android:textSize="16sp" />
+
+                <com.shawnlin.numberpicker.NumberPicker
+                    android:id="@+id/end_year_picker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    app:np_dividerColor="@color/colorAccent"
+                    app:np_formatter="@string/year_formatter"
+                    app:np_height="180dp"
+                    app:np_max="2030"
+                    app:np_min="1900"
+                    app:np_selectedTextColor="@color/primaryTextColor"
+                    app:np_textColor="@color/secondaryTextColor"
+                    app:np_textSize="20sp"
+                    app:np_selectedTextSize="20sp"
+                    app:np_value="2020"
+                    app:np_width="64dp"
+                    app:np_wrapSelectorWheel="false" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/year_chooser_overlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/primary0_transparent" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/validaton_failed_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/filter_warning_message"
+        android:gravity="center"
+        android:textColor="@color/errorTextColor"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        tools:visibility="visible" />
+
+</LinearLayout>

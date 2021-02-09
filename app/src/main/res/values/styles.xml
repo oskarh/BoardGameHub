@@ -1,0 +1,159 @@
+<resources>
+
+    <style name="AppTheme" parent="BaseTheme" />
+
+    <style name="BaseTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorSecondary">@color/colorAccent</item>
+
+        <item name="colorSecondaryVariant">@color/colorAccent</item>
+
+        <item name="colorOnPrimary">@color/primaryTextColor</item>
+
+<!--        // TODO: Fix these?-->
+        <item name="colorOnSecondary">@color/colorPrimary</item>
+        <item name="colorError">@android:color/holo_red_dark</item>
+        <item name="colorOnError">@color/colorPrimary</item>
+        <item name="colorSurface">@color/secondaryBackgroundColor</item>
+        <item name="colorOnSurface">@color/primaryTextColor</item>
+        <item name="colorOnBackground">@color/primaryTextColor</item>
+        <item name="android:colorBackground">@color/colorPrimary</item>
+
+        <item name="android:textColor">@color/primaryTextColor</item>
+
+        <item name="android:textColorPrimary">@color/darkGray</item>
+        <item name="android:textColorSecondary">@color/darkGrayDisabled</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="android:colorControlHighlight">@color/colorAccent</item>
+        <item name="android:colorControlActivated">@color/colorAccent</item>
+
+        <item name="android:itemTextAppearance">@style/SecondaryMenuTextAppearance</item>
+
+        <item name="chipStyle">@style/ChipStyle</item>
+
+        <item name="bottomSheetDialogTheme">@style/AppBottomSheetDialogTheme</item>
+
+<!--        // TODO: This doesn't work, fix it?--> 008577
+<!--        <item name="android:dialogTheme">@style/AlertDialogTheme</item>-->
+<!--        <item name="android:alertDialogTheme">@style/AlertDialogTheme</item>-->
+    </style>
+
+    <style name="AppThemeWithToolbar" parent="BaseTheme">
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">false</item>
+    </style>
+
+    <style name="AppTheme.MaterialAboutActivity" parent="Theme.Mal.Dark">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/secondaryBackgroundColor</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="mal_card_background">@color/colorPrimary</item>
+        <item name="android:windowBackground">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+<!--    <style name="TextAppearance.MyApp.Title.Collapsed" parent="android:TextAppearance">-->
+<!--        <item name="android:textColor">@color/primaryTextColor</item>-->
+<!--        <item name="android:textSize">11sp</item>-->
+<!--    </style>-->
+
+<!--    <style name="TextAppearance.MyApp.Title.Expanded" parent="android:TextAppearance">-->
+<!--        <item name="android:textColor">@color/primaryTextColor</item>-->
+<!--        <item name="android:textSize">14sp</item>-->
+<!--    </style>-->
+
+    <style name="Divider">
+        <item name="android:background">@color/darkGray</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+
+    <style name="DefaultCardStyle" parent="CardView">
+        <item name="android:clipChildren">false</item>
+        <item name="android:clipToPadding">false</item>
+        <item name="cardBackgroundColor">@color/background2</item>
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="cardUseCompatPadding">true</item>
+        <item name="cardPreventCornerOverlap">false</item>
+    </style>
+
+    <style name="SecondaryMenuTextAppearance" parent="@android:style/TextAppearance.Widget.IconMenu.Item">
+        <item name="android:textColor">@color/primaryTextColor</item>
+    </style>
+
+    <style name="AlertDialogTheme" parent="Theme.MaterialComponents.Dialog.Alert">
+        <item name="android:textColor">@color/secondaryTextColor</item>
+        <item name="android:titleTextColor">@color/primaryTextColor</item>
+        <item name="android:background">@color/secondaryBackgroundColor</item>
+
+        <item name="android:colorControlNormal">@color/secondaryTextColor</item>
+        <item name="android:colorControlActivated">@color/colorAccent</item>
+
+        <item name="buttonBarPositiveButtonStyle">@style/AlertButton</item>
+        <item name="buttonBarNegativeButtonStyle">@style/AlertButton</item>
+        <item name="buttonBarNeutralButtonStyle">@style/AlertButton</item>
+    </style>
+
+    <style name="SmallTitle" parent="Widget.MaterialComponents.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+<!--        <item name="android:layout_marginBottom">8dp</item>-->
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/secondaryTextColor</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ChipStyle" parent="Widget.MaterialComponents.Chip.Action">
+        <item name="chipBackgroundColor">@color/chipBackground</item>
+<!--        <item name="chipBackgroundColor">@color/secondaryTextColor</item>-->
+        <item name="android:textColor">#FBFBFB</item>
+<!--        <item name="android:textColor">@color/primaryTextColor</item>-->
+        <item name="chipStrokeColor">#484848</item>
+<!--        <item name="chipStrokeColor">@color/primaryTextColor</item>-->
+        <item name="chipStrokeWidth">1dp</item>
+    </style>
+
+    <style name="AlertButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="FlatButtonNoAccent" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
+    </style>
+
+    <style name="FlatButton" parent="FlatButtonNoAccent">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="SwitchCompatStyle" >
+        <item name="thumbTint">@color/switch_thumb_color</item>
+        <item name="trackTint">@color/switch_track_color</item>
+    </style>
+
+    <style name="AppBottomSheetDialogTheme"
+        parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppModalStyle"
+        parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/rounded_dialog</item>
+    </style>
+
+</resources>
