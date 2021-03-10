@@ -8,7 +8,6 @@ import android.view.ViewGroup
 import androidx.core.net.toUri
 import androidx.core.os.bundleOf
 import androidx.core.text.parseAsHtml
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import kotlinx.android.synthetic.main.property_dialog.*
@@ -62,14 +61,15 @@ class PropertyDialog : BottomSheetDialogFragment() {
             startActivity(Intent(Intent.ACTION_VIEW, propertyType.toBoardGameGeekUrl(propertyId).toUri()))
         }
         propertyViewModel = ViewModelProvider(this, viewModelFactory).get(PropertyViewModel::class.java)
-        propertyViewModel.propertyInformation(propertyId, propertyType).observe(viewLifecycleOwner, Observer { response ->
-            property_loading.visibleIf { response is LoadingResponse }
-            boardgame_geek_link.visibleIf { response !is LoadingResponse }
-            property_error.visibleIf { response is ErrorResponse }
-            if (response is SuccessResponse) {
-                setProperty(response.data)
-            }
-        })
+        propertyViewModel.propertyInformation(propertyId, propertyType).observe(viewLifecycleOwner,
+            { response ->
+                property_loading.visibleIf { response is LoadingResponse }
+                boardgame_geek_link.visibleIf { response !is LoadingResponse }
+                property_error.visibleIf { response is ErrorResponse }
+                if (response is SuccessResponse) {
+                    setProperty(response.data)
+                }
+            })
     }
 
     private fun setProperty(property: BoardGameProperty) {

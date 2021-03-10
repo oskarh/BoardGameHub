@@ -7,7 +7,6 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.annotation.IdRes
 import androidx.core.os.bundleOf
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -87,7 +86,7 @@ class BoardGameListFragment : BaseFragment() {
         boardgame_list.adapter = gameListAdapter
         listViewModel.populateFromCache(boardGames.map { it.id })
 
-        prefetchTimer.liveData.observe(viewLifecycleOwner, Observer {
+        prefetchTimer.liveData.observe(viewLifecycleOwner, {
             val visibleItems = boardgame_list.prefetchItemIndexes()
                 .mapNotNull {
                     gameListAdapter.boardGames.getOrNull(it)?.id
@@ -97,7 +96,7 @@ class BoardGameListFragment : BaseFragment() {
             listViewModel.fetchDetails(visibleItems)
         })
         prefetchTimer.reset()
-        listViewModel.boardGameDetails.observe(viewLifecycleOwner, Observer {
+        listViewModel.boardGameDetails.observe(viewLifecycleOwner, {
             it.map { boardGame ->
                 Timber.d("New update with details $boardGame")
                 gameListAdapter.updateDetails(boardGame)

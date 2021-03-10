@@ -7,7 +7,6 @@ import android.view.View
 import android.widget.LinearLayout
 import androidx.appcompat.app.AlertDialog
 import androidx.databinding.DataBindingUtil
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -107,7 +106,7 @@ class MainActivity : BaseActivity() {
         favorite_boardgames.layoutManager = LinearLayoutManager(this)
         favorite_boardgames.closeKeyboardOnScrollStart(this)
 
-        viewModel.favoriteFilteredGames.observe(this, Observer { favoriteState ->
+        viewModel.favoriteFilteredGames.observe(this, { favoriteState ->
             favorites_loading.visibleIf { favoriteState.isLoading }
             empty_favorites_message.visibleIf { favoriteState.allFavorites.isEmpty() }
             favorite_filter_clear.visibleIf(View.INVISIBLE) { favoriteState.filter.isNotEmpty() }
@@ -120,16 +119,16 @@ class MainActivity : BaseActivity() {
                 viewModel.hasSearchFocus(true)
             }
         }
-        viewModel.searchStates.observe(this, Observer { searchState: SearchState ->
+        viewModel.searchStates.observe(this, { searchState: SearchState ->
             search_back.visibleIf(View.INVISIBLE) { searchState.isSearchBackVisible }
             search_clear.visibleIf(View.INVISIBLE) { searchState.isQueryClearVisible }
         })
-        viewModel.exitSearch.observe(this, Observer { event ->
+        viewModel.exitSearch.observe(this, { event ->
             if (event.hasUpdate()) {
                 showFeed()
             }
         })
-        viewModel.suggestionClicked.observe(this, Observer { event ->
+        viewModel.suggestionClicked.observe(this, { event ->
             if (event.hasUpdate()) {
                 binding.invalidateAll()
                 search_text?.setCursorEndOfLine()
@@ -166,7 +165,7 @@ class MainActivity : BaseActivity() {
         sheet_handle.setOnClickListener {
             behavior.toggleState()
         }
-        favorite_filter_text.textChangedObserver().observe(this, Observer { favoriteFilter ->
+        favorite_filter_text.textChangedObserver().observe(this, { favoriteFilter ->
             viewModel.favoriteFilter.value = favoriteFilter.trim()
         })
         favorite_filter_clear.setOnClickListener {
@@ -207,7 +206,7 @@ class MainActivity : BaseActivity() {
             favorite_toggle_list.setImageResource(if (AppPreferences.isLargeResultsEnabled) R.drawable.ic_view_list_black_24dp else R.drawable.ic_view_module_black_24dp)
         }
 
-        viewModel.importedCollectionResponses.observe(this, Observer { importedGameResponse ->
+        viewModel.importedCollectionResponses.observe(this, { importedGameResponse ->
             importedGameResponse.takeUnless { it.peekContent() is LoadingResponse<*> }
                     ?.getContentIfNotHandled()
                     ?.let { response: ApiResponse<Int> ->
@@ -222,20 +221,20 @@ class MainActivity : BaseActivity() {
                         }
                     }
         })
-        viewModel.itemTypeToggled.observe(this, Observer {
+        viewModel.itemTypeToggled.observe(this, {
             favoriteAdapter.notifyDataSetChanged()
             val message = if (AppPreferences.isLargeResultsEnabled) R.string.large_board_games_displayed else R.string.small_board_games_displayed
             main_content.showSnackbar(message)
         })
-        viewModel.allFavoriteIds.observe(this, Observer {
+        viewModel.allFavoriteIds.observe(this, {
             Timber.d("New list of favorite ids ${it.joinToString()}")
         })
-        viewModel.addedFavorite.observe(this, Observer { event ->
+        viewModel.addedFavorite.observe(this, { event ->
             if (event.hasUpdate()) {
                 main_content.showSnackbar(R.string.added_favorite)
             }
         })
-        viewModel.removedFavorite.observe(this, Observer { event ->
+        viewModel.removedFavorite.observe(this, { event ->
             if (event.hasUpdate()) {
                 main_content.showSnackbar(R.string.removed_favorite)
             }
@@ -244,7 +243,7 @@ class MainActivity : BaseActivity() {
         supportFragmentManager.addOnBackStackChangedListener {
             bottom_sheet.visibleIf { supportFragmentManager.backStackEntryCount == 0 }
         }
-        viewModel.isUpdateRequired.observe(this, Observer { isUpdateRequired ->
+        viewModel.isUpdateRequired.observe(this, { isUpdateRequired ->
             if (isUpdateRequired == true) {
                 Analytics.logEvent(EVENT_FORCE_UPDATE_TRIGGERED)
                 startActivity<PromptUpdateActivity>()

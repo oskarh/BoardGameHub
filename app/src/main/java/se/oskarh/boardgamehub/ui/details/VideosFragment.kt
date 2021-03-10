@@ -6,7 +6,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.lifecycle.LiveData
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.android.synthetic.main.videos_page.*
@@ -54,7 +53,7 @@ class VideosFragment : LazyLoadableFragment() {
         }
     }
 
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
         binding = VideosPageBinding.inflate(inflater)
         return binding.root
     }
@@ -75,7 +74,7 @@ class VideosFragment : LazyLoadableFragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         detailsViewModel = ViewModelProvider(requireActivity(), viewModelFactory).get(DetailsViewModel::class.java)
-        detailsViewModel.boardGameName.observe(viewLifecycleOwner, Observer { title ->
+        detailsViewModel.boardGameName.observe(viewLifecycleOwner, { title ->
             if(title != null) {
                 search_youtube_button.setOnClickListener {
                     Analytics.logEvent(EVENT_YOUTUBE_SEARCH)
@@ -90,6 +89,7 @@ class VideosFragment : LazyLoadableFragment() {
 
     override fun onLoad() {
         if (!AppPreferences.hasShownYouTubeSearchOnboarding) {
+            // TODO: Do this in other way
             Handler().postDelayed({
                 activity?.showTapTarget(search_youtube_button, R.string.onboarding_youtube_search_title, R.string.onboarding_youtube_search_message)
             }, 250)
@@ -102,7 +102,7 @@ class VideosFragment : LazyLoadableFragment() {
     }
 
     private fun loadData() {
-        youTubeVideos.observe(viewLifecycleOwner, Observer { response ->
+        youTubeVideos.observe(viewLifecycleOwner, { response ->
             Timber.d("Got youtube response $response")
             when (response) {
                 is SuccessResponse -> {

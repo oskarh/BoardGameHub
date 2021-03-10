@@ -2,7 +2,6 @@ package se.oskarh.boardgamehub.repository
 
 import android.content.Intent
 import androidx.lifecycle.LifecycleService
-import androidx.lifecycle.Observer
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.delay
@@ -22,7 +21,7 @@ class ImportCollectionService : LifecycleService() {
     override fun onCreate() {
         super.onCreate()
         injector.inject(this)
-        importCollectionRepository.importCollectionResponses.observe(this, Observer { event ->
+        importCollectionRepository.importCollectionResponses.observe(this, { event ->
             event.takeIf { it.peekContent() is LoadingResponse }
                 ?.getContentIfNotHandled()
                 ?.let {

@@ -7,7 +7,6 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.core.net.toUri
 import androidx.core.view.children
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import kotlinx.android.synthetic.main.board_game_type_dialog.view.*
@@ -83,7 +82,7 @@ class InformationFragment : LazyLoadableFragment() {
 
     private var isExpansionsExpanded = false
 
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
         binding = InformationPageBinding.inflate(inflater)
         return binding.root
     }
@@ -96,22 +95,22 @@ class InformationFragment : LazyLoadableFragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         detailsViewModel = ViewModelProvider(requireActivity(), viewModelFactory).get(DetailsViewModel::class.java)
-        detailsViewModel.detailsResponse.observe(viewLifecycleOwner, Observer { detailsResponse ->
+        detailsViewModel.detailsResponse.observe(viewLifecycleOwner, { detailsResponse ->
             information_root.visibleIf { detailsResponse is SuccessResponse }
             when (detailsResponse) {
                 is SuccessResponse -> setupUi(detailsResponse.data)
             }
         })
-        detailsViewModel.favoriteBoardGame.observe(viewLifecycleOwner, Observer { favorite ->
+        detailsViewModel.favoriteBoardGame.observe(viewLifecycleOwner, { favorite ->
             setFavoriteImage(favorite != null)
         })
-        detailsViewModel.addedFavorite.observe(viewLifecycleOwner, Observer { event ->
+        detailsViewModel.addedFavorite.observe(viewLifecycleOwner, { event ->
             if (event.hasUpdate()) {
                 favorite_image.showSnackbar(R.string.added_favorite)
                 favorite_image.startAnimation(R.anim.heartbeat_animation)
             }
         })
-        detailsViewModel.removedFavorite.observe(viewLifecycleOwner, Observer { event ->
+        detailsViewModel.removedFavorite.observe(viewLifecycleOwner, { event ->
             if (event.hasUpdate()) {
                 favorite_image.showSnackbar(R.string.removed_favorite)
             }

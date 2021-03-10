@@ -11,7 +11,6 @@ import androidx.core.net.toUri
 import androidx.core.view.children
 import androidx.core.view.isVisible
 import androidx.core.widget.NestedScrollView
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -257,7 +256,7 @@ class FeedFragment : BaseFragment() {
         lazyLoadVideos()
         mainActivityViewModel = ViewModelProvider(requireActivity(), viewModelFactory).get(MainActivityViewModel::class.java)
         feedViewModel = ViewModelProvider(this, viewModelFactory).get(FeedViewModel::class.java)
-        feedViewModel.hotGames.observe(viewLifecycleOwner, Observer { response ->
+        feedViewModel.hotGames.observe(viewLifecycleOwner, { response ->
             hot_games_loading.visibleIf { response is LoadingResponse }
             show_all_hot_button.visibleIf(View.INVISIBLE) { response is SuccessResponse }
             hot_list.visibleIf(View.INVISIBLE) { response is SuccessResponse }
@@ -269,7 +268,7 @@ class FeedFragment : BaseFragment() {
         feedViewModel.loadHotGames()
 
         fetchRedditPosts()
-        feedViewModel.topGames.observe(viewLifecycleOwner, Observer { response ->
+        feedViewModel.topGames.observe(viewLifecycleOwner, { response ->
             top_games_loading.visibleIf { response is LoadingResponse }
             show_all_top_button.visibleIf(View.INVISIBLE) { response is SuccessResponse }
             top_list.visibleIf(View.INVISIBLE) { response is SuccessResponse }
@@ -279,7 +278,7 @@ class FeedFragment : BaseFragment() {
             }
         })
         feedViewModel.loadTopGames()
-        mainActivityViewModel.screenState.observe(viewLifecycleOwner, Observer { screenState ->
+        mainActivityViewModel.screenState.observe(viewLifecycleOwner, { screenState ->
             suggestion_overlay.visibleIf { screenState is ShowSuggestions }
             empty_suggestions_message.visibleIf { screenState is ShowSuggestions && !screenState.hasSuggestions }
             recent_searches_title.visibleIf { screenState is ShowSuggestions && screenState.suggestions.isNotEmpty() }
@@ -294,7 +293,7 @@ class FeedFragment : BaseFragment() {
             }
         })
 
-        mainActivityViewModel.sortedSearch.observe(viewLifecycleOwner, Observer { response ->
+        mainActivityViewModel.sortedSearch.observe(viewLifecycleOwner, { response ->
             search_list.visibleIf { response is SuccessResponse }
             empty_search_root.visibleIf { response is EmptyResponse }
             empty_search_message.text = getString(R.string.empty_search_message)
@@ -326,7 +325,7 @@ class FeedFragment : BaseFragment() {
             search_loading.visibleIf { response is LoadingResponse }
         })
 
-        prefetchTimer.liveData.observe(viewLifecycleOwner, Observer {
+        prefetchTimer.liveData.observe(viewLifecycleOwner, {
             val visibleItemIds: List<Int> = search_list.prefetchItemIndexes(searchResultsAdapter.headerSize)
                 .mapNotNull { index ->
                     searchResultsAdapter.boardGames.getOrNull(index)?.id
@@ -337,7 +336,7 @@ class FeedFragment : BaseFragment() {
             mainActivityViewModel.fetchDetails(visibleItemIds)
         })
 
-        mainActivityViewModel.boardGameDetails.observe(viewLifecycleOwner, Observer { boardGameDetailsList ->
+        mainActivityViewModel.boardGameDetails.observe(viewLifecycleOwner, { boardGameDetailsList ->
             boardGameDetailsList.onEach { boardGame ->
                 Timber.d("New update with details for board game ${boardGame.primaryName()}")
                 // TODO: Find out where the updates should go?
@@ -347,7 +346,7 @@ class FeedFragment : BaseFragment() {
             }
         })
 
-        mainActivityViewModel.itemTypeToggled.observe(viewLifecycleOwner, Observer {
+        mainActivityViewModel.itemTypeToggled.observe(viewLifecycleOwner, {
             searchResultsAdapter.notifyDataSetChanged()
         })
 
@@ -399,7 +398,7 @@ class FeedFragment : BaseFragment() {
         reddit_try_again_button.setOnClickListener {
             feedViewModel.loadRedditPosts()
         }
-        feedViewModel.redditPosts.observe(viewLifecycleOwner, Observer { redditResponse ->
+        feedViewModel.redditPosts.observe(viewLifecycleOwner, { redditResponse ->
             Timber.d("Got new Reddit response [${redditResponse}]")
             reddit_loading.visibleIf { redditResponse is LoadingResponse && redditAdapter.isEmpty() }
             reddit_all_button.visibleIf(View.INVISIBLE) { redditResponse is SuccessResponse || !redditAdapter.isEmpty() }
@@ -411,7 +410,7 @@ class FeedFragment : BaseFragment() {
     }
 
     private fun fetchYouTubeVideos() {
-        feedViewModel.enabledYouTubeChannelVideo.observe(viewLifecycleOwner, Observer { channelVideos ->
+        feedViewModel.enabledYouTubeChannelVideo.observe(viewLifecycleOwner, { channelVideos ->
             // TODO: Implement error and empty views for videos?
             youtube_videos_loading.visibleIf { channelVideos is LoadingResponse }
             show_all_videos_button.visibleIf { channelVideos is SuccessResponse }

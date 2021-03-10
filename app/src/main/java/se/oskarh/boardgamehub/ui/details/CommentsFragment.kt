@@ -5,7 +5,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.lifecycle.LiveData
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.android.synthetic.main.comments_page.*
@@ -40,7 +39,7 @@ class CommentsFragment : LazyLoadableFragment() {
         detailsViewModel.boardGameComments
     }
 
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
         binding = CommentsPageBinding.inflate(inflater)
         return binding.root
     }
@@ -76,7 +75,7 @@ class CommentsFragment : LazyLoadableFragment() {
     private fun loadData() {
         // TODO: Remove previous subscriptions
         Timber.d("Loading comments commence observing")
-        comments.observe(viewLifecycleOwner, Observer { response ->
+        comments.observe(viewLifecycleOwner, { response ->
             Timber.d("Got comments ${response.log()}")
             comments_loading.visibleIf { response is LoadingResponse }
             comments_empty_message.visibleIf { response is EmptyResponse }

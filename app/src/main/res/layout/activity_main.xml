@@ -75,7 +75,7 @@
             android:layout_height="match_parent">
             <!--android:layout_marginTop="?android:attr/actionBarSize">-->
 
-            <fragment
+            <androidx.fragment.app.FragmentContainerView
                 android:id="@+id/feed_fragment"
                 android:name="se.oskarh.boardgamehub.ui.feed.FeedFragment"
                 android:layout_width="match_parent"

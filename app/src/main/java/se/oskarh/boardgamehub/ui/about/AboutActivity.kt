@@ -23,6 +23,7 @@ import se.oskarh.boardgamehub.util.BOARDGAME_GEEK_URL
 import se.oskarh.boardgamehub.util.BOARDGAME_HUB_PRIVACY_URL
 import se.oskarh.boardgamehub.util.TEXT_PLAIN
 import se.oskarh.boardgamehub.util.extension.canHandleRatingIntent
+import se.oskarh.boardgamehub.util.extension.getCompatDrawable
 import se.oskarh.boardgamehub.util.extension.loadAnimation
 import se.oskarh.boardgamehub.util.extension.redirectToPlayStore
 import se.oskarh.boardgamehub.util.extension.startActivity
@@ -49,7 +50,7 @@ class AboutActivity : MaterialAboutActivity() {
             addItem(
                 ConvenienceBuilder.createVersionActionItem(
                     this@AboutActivity,
-                    getDrawable(R.drawable.ic_info_black_24dp),
+                    this@AboutActivity.getCompatDrawable(R.drawable.ic_info_black_24dp),
                     getString(R.string.version),
                     true
                 )
@@ -88,7 +89,7 @@ class AboutActivity : MaterialAboutActivity() {
             addItem(
                 ConvenienceBuilder.createEmailItem(
                     this@AboutActivity,
-                    getDrawable(R.drawable.ic_email_black_24dp),
+                    this@AboutActivity.getCompatDrawable(R.drawable.ic_email_black_24dp),
                     getString(R.string.contact_me_title),
                     true,
                     getString(R.string.boardgamehub_email),
@@ -99,7 +100,7 @@ class AboutActivity : MaterialAboutActivity() {
 
             addItem(ConvenienceBuilder.createRateActionItem(
                 this@AboutActivity,
-                getDrawable(R.drawable.ic_star_black_24dp),
+                this@AboutActivity.getCompatDrawable(R.drawable.ic_star_black_24dp),
                 getString(R.string.rate_app), null
             )
                 .setOnClickAction {

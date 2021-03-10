@@ -3,11 +3,11 @@ package se.oskarh.boardgamehub.repository
 import android.content.Context
 import dagger.Reusable
 import se.oskarh.boardgamehub.R
-import se.oskarh.boardgamehub.api.model.BoardGameDetailsResponse
-import se.oskarh.boardgamehub.api.model.HotBoardGames
-import se.oskarh.boardgamehub.api.model.PeopleResponse
-import se.oskarh.boardgamehub.api.model.PublisherResponse
-import se.oskarh.boardgamehub.api.model.SearchResponse
+import se.oskarh.boardgamehub.api.model.boardgamegeek.BoardGameDetailsResponse
+import se.oskarh.boardgamehub.api.model.boardgamegeek.HotBoardGames
+import se.oskarh.boardgamehub.api.model.boardgamegeek.PeopleResponse
+import se.oskarh.boardgamehub.api.model.boardgamegeek.PublisherResponse
+import se.oskarh.boardgamehub.api.model.boardgamegeek.SearchResponse
 import se.oskarh.boardgamehub.util.extension.xmlToClass
 import javax.inject.Inject
 

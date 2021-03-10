@@ -2,7 +2,6 @@ package se.oskarh.boardgamehub.ui.video
 
 import android.content.Intent
 import android.os.Bundle
-import android.view.View
 import androidx.core.net.toUri
 import androidx.core.text.parseAsHtml
 import androidx.databinding.DataBindingUtil
@@ -71,16 +70,16 @@ class VideoPlayerActivity : BaseActivity() {
                 }
 
                 youtube_player.getPlayerUiController().run {
-                    setCustomAction1(getCompatDrawable(R.drawable.ic_back_10_black_24dp), View.OnClickListener {
+                    setCustomAction1(getCompatDrawable(R.drawable.ic_back_10_black_24dp)) {
                         Analytics.logEvent(EVENT_YOUTUBE_SKIP_BACK)
                         val newPlayTime = max(tracker.currentSecond - 10, 0f)
                         youTubePlayer.seekTo(newPlayTime)
-                    })
-                    setCustomAction2(getCompatDrawable(R.drawable.ic_skip_forward_black_24dp), View.OnClickListener {
+                    }
+                    setCustomAction2(getCompatDrawable(R.drawable.ic_skip_forward_black_24dp)) {
                         Analytics.logEvent(EVENT_YOUTUBE_SKIP_FORWARD)
                         val newPlayTime = min(tracker.currentSecond + 30, tracker.videoDuration)
                         youTubePlayer.seekTo(newPlayTime)
-                    })
+                    }
                 }
             }
         })

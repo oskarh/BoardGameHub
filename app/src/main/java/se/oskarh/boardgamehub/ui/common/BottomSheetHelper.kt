@@ -2,7 +2,7 @@ package se.oskarh.boardgamehub.ui.common
 
 import android.content.Context
 import android.view.View
-import android.widget.FrameLayout
+import android.widget.LinearLayout
 import androidx.core.graphics.drawable.toDrawable
 import kotlinx.android.synthetic.main.filter_collection_dialog_bottom.*
 import kotlinx.android.synthetic.main.filter_dialog_bottom.*
@@ -125,7 +125,7 @@ object BottomSheetHelper {
         }
     }
 
-    private fun FrameLayout.updateForegroundColor(isEnabled: Boolean) {
+    private fun LinearLayout.updateForegroundColor(isEnabled: Boolean) {
         val overlayBackgroundColor =
                 if (isEnabled) {
                     context.getCompatColor(android.R.color.transparent)

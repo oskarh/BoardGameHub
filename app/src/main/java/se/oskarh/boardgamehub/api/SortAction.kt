@@ -2,7 +2,7 @@ package se.oskarh.boardgamehub.api
 
 import androidx.annotation.StringRes
 import se.oskarh.boardgamehub.R
-import se.oskarh.boardgamehub.api.model.BggBoardGame
+import se.oskarh.boardgamehub.api.model.boardgamegeek.BggBoardGame
 import se.oskarh.boardgamehub.util.extension.normalize
 
 enum class SortAction(@StringRes val property: Int) {
@@ -20,8 +20,7 @@ enum class SortAction(@StringRes val property: Int) {
         }
 
     private fun sortByRelevance(query: String, games: List<BggBoardGame>) =
-        games.asSequence()
-            .groupBy {
+        games.groupBy {
                 relevanceStrength(query.normalize(), it.normalizedName())
             }
             .toSortedMap()

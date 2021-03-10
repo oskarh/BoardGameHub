@@ -331,6 +331,7 @@ fun TextView.italicize() {
     setTypeface(null, Typeface.ITALIC)
 }
 
+// TODO: Fix deprecation warnings
 fun Activity.enableFullScreen() {
     window.decorView.systemUiVisibility = (View.SYSTEM_UI_FLAG_LAYOUT_STABLE
             or View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION

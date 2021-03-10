@@ -11,7 +11,7 @@ import se.oskarh.boardgamehub.analytics.EVENT_IMPORT_ERROR
 import se.oskarh.boardgamehub.analytics.EVENT_IMPORT_SUCCESSFUL
 import se.oskarh.boardgamehub.analytics.EVENT_IMPORT_WRONG_USERNAME
 import se.oskarh.boardgamehub.analytics.EVENT_PROPERTY_IMPORT_SIZE
-import se.oskarh.boardgamehub.api.model.CollectionSuccessfulResponse
+import se.oskarh.boardgamehub.api.model.boardgamegeek.CollectionSuccessfulResponse
 import se.oskarh.boardgamehub.db.collection.BoardGameCollection
 import se.oskarh.boardgamehub.db.collection.BoardGameCollectionRepository
 import se.oskarh.boardgamehub.db.favorite.FavoriteItem

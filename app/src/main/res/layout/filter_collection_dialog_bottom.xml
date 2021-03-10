@@ -46,45 +46,38 @@
         android:textColor="@color/primaryTextColor"
         android:textSize="16sp" />
 
-    <FrameLayout
-        android:id="@+id/player_chooser_overlay"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:foreground="@color/primary0_transparent">
+        <LinearLayout
+            android:id="@+id/player_chooser_overlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:foreground="@color/primary0_transparent"
+            android:orientation="vertical">
 
-            <LinearLayout
-                android:id="@+id/player_chooser_root"
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:orientation="vertical">
+                android:text="@string/players_hint"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/players_hint"
-                    android:textSize="16sp"
-                    android:textStyle="bold"/>
-
-                <com.shawnlin.numberpicker.NumberPicker
-                    android:id="@+id/players_picker"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    app:np_dividerColor="@color/colorAccent"
-                    app:np_height="180dp"
-                    app:np_max="10"
-                    app:np_min="1"
-                    app:np_selectedTextColor="@color/primaryTextColor"
-                    app:np_textColor="@color/secondaryTextColor"
-                    app:np_textSize="20sp"
-                    app:np_selectedTextSize="20sp"
-                    app:np_value="4"
-                    app:np_width="64dp"
-                    app:np_wrapSelectorWheel="false" />
-            </LinearLayout>
-
-    </FrameLayout>
+            <com.shawnlin.numberpicker.NumberPicker
+                android:id="@+id/players_picker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                app:np_dividerColor="@color/colorAccent"
+                app:np_height="180dp"
+                app:np_max="10"
+                app:np_min="1"
+                app:np_selectedTextColor="@color/primaryTextColor"
+                app:np_textColor="@color/secondaryTextColor"
+                app:np_textSize="20sp"
+                app:np_selectedTextSize="20sp"
+                app:np_value="4"
+                app:np_width="64dp"
+                app:np_wrapSelectorWheel="false" />
+        </LinearLayout>
 
     <TextView
         android:id="@+id/collection_validaton_failed_message"

@@ -141,7 +141,7 @@ data class BoardGame(
         val totalNumberVotes = max(8, recommendations?.results?.sumBy {
             it.numberOfVotes
         }.takeUnless { it == 0 } ?: 1)
-        Timber.d("Recommendation value for ${primaryName()} | ${recommendationSum} | ${totalNumberVotes} | average = ${recommendationSum.toFloat() / totalNumberVotes}")
+        Timber.d("Recommendation value for ${primaryName()} | $recommendationSum | $totalNumberVotes | average = ${recommendationSum.toFloat() / totalNumberVotes}")
         return recommendationSum.toFloat() / totalNumberVotes
     }
 

@@ -3,11 +3,10 @@ package se.oskarh.boardgamehub.ui.family
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import kotlinx.android.synthetic.main.activity_boardgame_family.*
 import se.oskarh.boardgamehub.R
-import se.oskarh.boardgamehub.api.model.BggBoardGameFamily
+import se.oskarh.boardgamehub.api.model.boardgamegeek.BggBoardGameFamily
 import se.oskarh.boardgamehub.repository.ErrorResponse
 import se.oskarh.boardgamehub.repository.LoadingResponse
 import se.oskarh.boardgamehub.repository.SuccessResponse
@@ -43,7 +42,7 @@ class BoardGameFamilyActivity : BaseActivity() {
         familyViewModel = ViewModelProvider(this, viewModelFactory).get(BoardGameFamilyViewModel::class.java)
         val familyId = intent.getIntExtra(KEY_BOARDGAME_FAMILY_ID, -1)
         familyViewModel.findFamily(familyId)
-        familyViewModel.familyResponse.observe(this, Observer { response ->
+        familyViewModel.familyResponse.observe(this, { response ->
             // TODO: Add error handling
             family_loading.visibleIf { response is LoadingResponse }
             family_error.visibleIf { response is ErrorResponse }

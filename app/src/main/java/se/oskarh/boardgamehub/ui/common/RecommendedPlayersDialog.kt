@@ -40,6 +40,7 @@ class RecommendedPlayersDialog : BottomSheetDialogFragment() {
 
         val votingData = poll.results
             .mapIndexed { index, recommendation ->
+                // TODO: Use constants instead of raw strings?
                 val bestVotes = recommendation.results.firstOrNull {
                     it.value.equals("best", true)
                 }?.numberOfVotes?.toFloat() ?: 0f

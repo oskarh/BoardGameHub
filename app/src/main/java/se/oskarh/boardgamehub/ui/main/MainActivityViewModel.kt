@@ -15,7 +15,7 @@ import se.oskarh.boardgamehub.BuildConfig
 import se.oskarh.boardgamehub.analytics.Analytics
 import se.oskarh.boardgamehub.analytics.EVENT_BOARDGAME_FAVORITE
 import se.oskarh.boardgamehub.analytics.EVENT_PROPERTY_IS_FAVORITE
-import se.oskarh.boardgamehub.api.model.SearchResponse
+import se.oskarh.boardgamehub.api.model.boardgamegeek.SearchResponse
 import se.oskarh.boardgamehub.db.boardgame.BoardGame
 import se.oskarh.boardgamehub.db.boardgame.BoardGameRepository
 import se.oskarh.boardgamehub.db.favorite.FavoriteItem

@@ -2,7 +2,7 @@ package se.oskarh.boardgamehub.api
 
 import android.content.Context
 import se.oskarh.boardgamehub.R
-import se.oskarh.boardgamehub.api.model.BggBoardGame
+import se.oskarh.boardgamehub.api.model.boardgamegeek.BggBoardGame
 import java.util.Locale
 
 data class FilterAction(

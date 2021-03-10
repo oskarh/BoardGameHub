@@ -94,7 +94,7 @@ open class BoardGameAdapter(
             }
     }
 
-    private fun setPopupMenu(view: View, boardGame: BoardGame) {
+    private fun setupGestureDetector(view: View, boardGame: BoardGame) {
         val gestureDetector = GestureDetector(view.context, ChangeSizeDetector(view) {
             onLongClicked(boardGame, view)
         })
@@ -130,12 +130,13 @@ open class BoardGameAdapter(
             itemView.small_players_text.visibleIf { boardGame.hasPlayers() }
             itemView.small_players_text.text = boardGame.playersFormatted()
             itemView.small_boardgame_rank.visibleIf { isRankedList }
-            itemView.small_boardgame_rank.text = (adapterPosition + 1).toString()
+            itemView.small_boardgame_rank.text = (absoluteAdapterPosition + 1).toString()
+            Timber.d("Adapteor position $adapterPosition absolute $absoluteAdapterPosition relative $bindingAdapterPosition")
 
             itemView.setOnClickListener {
                 boardGameClicked(boardGame)
             }
-            setPopupMenu(itemView, boardGame)
+            setupGestureDetector(itemView, boardGame)
         }
 
         private fun formatYearPublished(boardGame: BoardGame) =
@@ -192,12 +193,13 @@ open class BoardGameAdapter(
             // TODO: Fix below for i18n
             itemView.time_text.text = itemView.context.getString(R.string.playing_time_formatted, boardGame.playingTimeFormatted())
             itemView.boardgame_rank.visibleIf { isRankedList }
-            itemView.boardgame_rank.text = (adapterPosition + 1).toString()
+            itemView.boardgame_rank.text = (absoluteAdapterPosition + 1).toString()
 
+            Timber.d("Adapteor position $adapterPosition absolute $absoluteAdapterPosition relative $bindingAdapterPosition")
             itemView.setOnClickListener {
                 boardGameClicked(boardGame)
             }
-            setPopupMenu(itemView, boardGame)
+            setupGestureDetector(itemView, boardGame)
         }
 
         // TODO: Call all visibility modifiers from same method for bind and updateDetails

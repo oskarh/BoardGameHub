@@ -10,7 +10,6 @@ import androidx.core.content.ContextCompat
 import androidx.core.os.bundleOf
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentStatePagerAdapter
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.google.android.material.appbar.AppBarLayout
 import kotlinx.android.synthetic.main.details_fragment.*
@@ -22,7 +21,6 @@ import se.oskarh.boardgamehub.analytics.EVENT_PROPERTY_BOARDGAME_ID
 import se.oskarh.boardgamehub.analytics.EVENT_PROPERTY_DETAILS_SOURCE
 import se.oskarh.boardgamehub.analytics.EVENT_TAB_COMMENTS
 import se.oskarh.boardgamehub.analytics.EVENT_TAB_DETAILS
-import se.oskarh.boardgamehub.analytics.EVENT_TAB_VIDEOS
 import se.oskarh.boardgamehub.api.PollType
 import se.oskarh.boardgamehub.databinding.DetailsFragmentBinding
 import se.oskarh.boardgamehub.db.boardgame.BoardGame
@@ -87,7 +85,7 @@ class DetailsFragment : BaseFragment() {
         // TODO: Also needed to implement refresh in a better way
         detailsViewModel.currentBoardGame.value = boardGameId
         // TODO: Fix
-        detailsViewModel.detailsResponse.observe(viewLifecycleOwner, Observer { response ->
+        detailsViewModel.detailsResponse.observe(viewLifecycleOwner, { response ->
             details_progress.visibleIf { response is LoadingResponse }
             error_root.visibleIf { response is ErrorResponse }
             if (response is SuccessResponse) {

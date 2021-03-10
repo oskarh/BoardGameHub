@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-kapt'
 apply plugin: 'kotlin-android-extensions'
-//apply plugin: 'io.fabric'
+//apply plugin: 'kotlin-parcelize'
 apply plugin: 'com.google.firebase.crashlytics'
 apply plugin: 'com.google.firebase.firebase-perf'
 apply plugin: 'com.google.android.gms.oss-licenses-plugin'
@@ -57,6 +57,7 @@ android {
     }
 }
 
+// TODO: Remove
 androidExtensions {
     experimental = true
 }
@@ -70,7 +71,7 @@ kapt {
 dependencies {
     implementation fileTree(include: '*.jar', dir: 'libs')
 
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.21"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
 //    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
     api "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutines"
     api "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutines"
@@ -78,7 +79,7 @@ dependencies {
     implementation "androidx.appcompat:appcompat:$jetpackAppcompat"
 //    implementation "androidx.constraintlayout:constraintlayout:$jetpackConstraintLayout"
     implementation "androidx.core:core-ktx:$jetpackCoreKtx"
-    implementation "androidx.lifecycle:lifecycle-extensions:$jetpackLifecycle"
+    implementation "androidx.lifecycle:lifecycle-extensions:$jetpackLifecycleExtensions"
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$jetpackLifecycle"
     implementation "androidx.lifecycle:lifecycle-common-java8:$jetpackLifecycle"
     implementation "androidx.lifecycle:lifecycle-livedata-ktx:$jetpackLifecycle"
@@ -96,8 +97,7 @@ dependencies {
     implementation "com.google.firebase:firebase-config:$firebaseConfig"
     implementation "com.google.firebase:firebase-perf:$firebasePerformance"
     implementation "com.google.android.gms:play-services-oss-licenses:$firebaseOssLicenses"
-    implementation "com.google.firebase:firebase-crashlytics:17.2.1"
-//    implementation "com.crashlytics.sdk.android:crashlytics:2.10.1"
+    implementation "com.google.firebase:firebase-crashlytics:17.3.1"
 
     implementation "com.google.code.gson:gson:$gson"
     implementation "com.squareup.okhttp3:logging-interceptor:$okHttp"
@@ -120,8 +120,6 @@ dependencies {
     debugImplementation "com.amitshekhar.android:debug-db:$debugDatabase"
     debugImplementation "com.github.ChuckerTeam.Chucker:library:$chucker"
     releaseImplementation "com.github.ChuckerTeam.Chucker:library-no-op:$chucker"
-//    debugImplementation "com.readystatesoftware.chuck:library:$chuck"
-//    releaseImplementation "com.readystatesoftware.chuck:library-no-op:$chuck"
 
     implementation "com.getkeepsafe.taptargetview:taptargetview:$tapTargetView"
 
