@@ -218,7 +218,7 @@ class FinderRepository @Inject constructor(
     }
 
     // TODO: Refactor to map?
-    fun hotTopics(hotType: HotType): LiveData<ApiResponse<List<RankedBoardGame>>> {
+    fun hotBoardGames(hotType: HotType): LiveData<ApiResponse<List<RankedBoardGame>>> {
         return MediatorLiveData<ApiResponse<List<RankedBoardGame>>>().apply {
             addSource(boardGameGeekService.hotGames(hotType.property)) { hotResponse ->
                 if (hotResponse is SuccessResponse<HotBoardGames>) {

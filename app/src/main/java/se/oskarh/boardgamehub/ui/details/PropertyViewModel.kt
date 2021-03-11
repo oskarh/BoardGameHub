@@ -15,5 +15,5 @@ class PropertyViewModel @Inject constructor(
 ) : ViewModel() {
 
     fun propertyInformation(id: Int, propertyType: PropertyType): LiveData<ApiResponse<BoardGameProperty>> =
-        propertyRepository.findNewProperty(id, propertyType)
+        propertyRepository.findProperty(id, propertyType)
 }

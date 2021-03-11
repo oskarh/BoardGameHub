@@ -110,6 +110,7 @@ class VideosFragment : LazyLoadableFragment() {
                     videoAdapter.updateResults(response.data.videos)
                 }
                 is ErrorResponse -> Timber.d("Error message loading videos ${response.errorMessage}")
+                is EmptyResponse, is LoadingResponse -> {}
             }
             videos_empty_message.visibleIf { response is EmptyResponse }
             videos_error_message.visibleIf { response is ErrorResponse }

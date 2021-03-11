@@ -83,6 +83,7 @@ const val ARTIST_ID = "artistId"
 const val DESIGNER_ID = "designerId"
 const val PREFETCH_BUFFER_SIZE = 3
 const val PREFETCH_PERIOD_MS = 1000L
+const val PUBLICATION_YEAR_UNKNOWN = 0
 
 const val PUBLISHER_ID = "publisherId"
 const val YOUTUBE_PACKAGE_NAME = "com.google.android.youtube"
@@ -139,6 +140,7 @@ const val GOOGLE_MAP_BOARDGAME_CAFES = "https://www.google.com/maps/d/viewer?mid
 
 const val INDEX_NOT_FOUND = -1
 const val COULD_NOT_PARSE_DEFAULT = "-"
+const val COULD_NOT_PARSE_PLAYERS_DEFAULT = "2 - 5"
 
 const val BOARDGAME_MAXIMUM_PAGE_SIZE = 100
 const val TOP_GAMES_TIMEOUT = 10_000

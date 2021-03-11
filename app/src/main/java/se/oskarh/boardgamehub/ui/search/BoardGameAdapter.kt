@@ -17,6 +17,7 @@ import se.oskarh.boardgamehub.util.ChangeSizeDetector
 import se.oskarh.boardgamehub.util.extension.animateToSize
 import se.oskarh.boardgamehub.util.extension.getCompatColor
 import se.oskarh.boardgamehub.util.extension.gone
+import se.oskarh.boardgamehub.util.extension.hasPublicationYear
 import se.oskarh.boardgamehub.util.extension.inflate
 import se.oskarh.boardgamehub.util.extension.loadImage
 import se.oskarh.boardgamehub.util.extension.loadImageAnimateBackground
@@ -127,7 +128,7 @@ open class BoardGameAdapter(
             itemView.small_rating_text.visibleIf { boardGame.hasStatistics() }
             itemView.small_rating_text.text = boardGame.formattedRating()
             itemView.small_players_image.visibleIf { boardGame.hasPlayers() }
-            itemView.small_players_text.visibleIf { boardGame.hasPlayers() }
+            itemView.small_players_text.visibleIf(View.INVISIBLE) { boardGame.hasPlayers() }
             itemView.small_players_text.text = boardGame.playersFormatted()
             itemView.small_boardgame_rank.visibleIf { isRankedList }
             itemView.small_boardgame_rank.text = (absoluteAdapterPosition + 1).toString()
@@ -149,7 +150,7 @@ open class BoardGameAdapter(
         // TODO: Call all visibility modifiers from same method for bind and updateDetails
         fun updateDetails(boardGame: BoardGame) {
             Timber.d("Updating details to ${boardGame.primaryName()}")
-            // TODO: Animate this in?
+            // TODO: Animate this in if not already visible?
             itemView.small_rating_image.visible()
             itemView.small_rating_text.visible()
             itemView.small_rating_text.text = boardGame.formattedRating()
@@ -173,7 +174,7 @@ open class BoardGameAdapter(
             }
             itemView.title_text.text = boardGame.primaryName()
             itemView.boardgame_type.setImageResource(boardGame.type.icon)
-            itemView.published_year.visibleIf { boardGame.yearPublished != 0 }
+            itemView.published_year.visibleIf { boardGame.hasPublicationYear }
             itemView.published_year.text =
                 if (boardGame.yearPublished > 0) {
                     boardGame.yearPublished.toString()
@@ -186,7 +187,7 @@ open class BoardGameAdapter(
             itemView.rating_text.visibleIf { boardGame.hasStatistics() }
             itemView.rating_text.text = boardGame.formattedRating()
             itemView.players_image.visibleIf { boardGame.hasPlayers() }
-            itemView.players_text.visibleIf { boardGame.hasPlayers() }
+            itemView.players_text.visibleIf(View.INVISIBLE) { boardGame.hasPlayers() }
             itemView.players_text.text = boardGame.playersFormatted()
             itemView.time_image.visibleIf { boardGame.hasPlayingTime() }
             itemView.time_text.visibleIf { boardGame.hasPlayingTime() }
@@ -195,7 +196,7 @@ open class BoardGameAdapter(
             itemView.boardgame_rank.visibleIf { isRankedList }
             itemView.boardgame_rank.text = (absoluteAdapterPosition + 1).toString()
 
-            Timber.d("Adapteor position $adapterPosition absolute $absoluteAdapterPosition relative $bindingAdapterPosition")
+            Timber.d("Adapter position $adapterPosition absolute $absoluteAdapterPosition relative $bindingAdapterPosition")
             itemView.setOnClickListener {
                 boardGameClicked(boardGame)
             }

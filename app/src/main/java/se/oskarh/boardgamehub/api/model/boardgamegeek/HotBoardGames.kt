@@ -10,5 +10,6 @@ data class HotBoardGames(
     @Element(name = "item")
     var games: List<BggRankedBoardGame>,
 
+    // TODO: Remove all these unnecessary attributes we don't use?
     @Attribute(name = "termsofuse")
     var termsOfUse: String)

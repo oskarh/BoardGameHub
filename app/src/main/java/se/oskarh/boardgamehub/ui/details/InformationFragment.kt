@@ -97,8 +97,8 @@ class InformationFragment : LazyLoadableFragment() {
         detailsViewModel = ViewModelProvider(requireActivity(), viewModelFactory).get(DetailsViewModel::class.java)
         detailsViewModel.detailsResponse.observe(viewLifecycleOwner, { detailsResponse ->
             information_root.visibleIf { detailsResponse is SuccessResponse }
-            when (detailsResponse) {
-                is SuccessResponse -> setupUi(detailsResponse.data)
+            if (detailsResponse is SuccessResponse) {
+                setupUi(detailsResponse.data)
             }
         })
         detailsViewModel.favoriteBoardGame.observe(viewLifecycleOwner, { favorite ->

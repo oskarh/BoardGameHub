@@ -38,6 +38,7 @@ import se.oskarh.boardgamehub.util.COULD_NOT_PARSE_DEFAULT
 import se.oskarh.boardgamehub.util.KEY_IMAGE_URL
 import se.oskarh.boardgamehub.util.MINIMUM_REQUIRED_VOTES
 import se.oskarh.boardgamehub.util.extension.addOnPageSelectedListener
+import se.oskarh.boardgamehub.util.extension.hasPublicationYear
 import se.oskarh.boardgamehub.util.extension.injector
 import se.oskarh.boardgamehub.util.extension.loadImageChangeBackground
 import se.oskarh.boardgamehub.util.extension.requireArgumentInt
@@ -135,7 +136,7 @@ class DetailsFragment : BaseFragment() {
                 startActivity<CoverDetailsActivity>(KEY_IMAGE_URL to image)
             }
         }
-        published_year.visibleIf { gameDetails.yearPublished != 0 }
+        published_year.visibleIf { gameDetails.hasPublicationYear }
         published_year.text = gameDetails.yearPublished.toString()
 
         players.text = gameDetails.playersFormatted()

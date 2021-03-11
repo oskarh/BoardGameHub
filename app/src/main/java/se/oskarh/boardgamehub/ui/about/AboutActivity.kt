@@ -28,6 +28,8 @@ import se.oskarh.boardgamehub.util.extension.loadAnimation
 import se.oskarh.boardgamehub.util.extension.redirectToPlayStore
 import se.oskarh.boardgamehub.util.extension.startActivity
 
+// TODO: Update to latest version of library and add link to GitHub repo with analytics
+// TODO: Also communicate above in new version snackbar
 class AboutActivity : MaterialAboutActivity() {
 
     override fun onStart() {

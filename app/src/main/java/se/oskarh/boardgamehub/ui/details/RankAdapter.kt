@@ -9,6 +9,7 @@ import kotlinx.android.synthetic.main.ranking_item.view.*
 import se.oskarh.boardgamehub.R
 import se.oskarh.boardgamehub.db.boardgame.BoardGame
 import se.oskarh.boardgamehub.util.extension.inflate
+import timber.log.Timber
 
 class RankAdapter(
     private val rankings: List<BoardGame.Rank>
@@ -27,8 +28,10 @@ class RankAdapter(
     inner class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         @SuppressLint("SetTextI18n")
         fun bind(rank: BoardGame.Rank) {
+            Timber.d("Rank for ${rank.friendlyname} was [${rank.value}]")
             val ranking =
                 if (rank.value.isDigitsOnly()) {
+                    // TODO: Why is this like this, change it?
                     "#${rank.value}"
                 } else {
                     rank.value

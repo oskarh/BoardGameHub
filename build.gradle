@@ -8,10 +8,10 @@ buildscript {
         classpath 'com.android.tools.build:gradle:4.2.0-beta05'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
         classpath 'com.google.gms:google-services:4.3.5'
-        classpath 'com.google.firebase:perf-plugin:1.3.4'
+        classpath 'com.google.firebase:perf-plugin:1.3.5'
         classpath 'com.google.android.gms:oss-licenses-plugin:0.10.2'
-        classpath 'com.github.ben-manes:gradle-versions-plugin:0.29.0'
-        classpath 'com.google.firebase:firebase-crashlytics-gradle:2.5.0'
+        classpath 'com.github.ben-manes:gradle-versions-plugin:0.36.0'
+        classpath 'com.google.firebase:firebase-crashlytics-gradle:2.5.1'
     }
 }
 
@@ -41,14 +41,13 @@ ext {
     gson = '2.8.6'
     jetpackAppcompat = '1.3.0-beta01'
 //    jetpackConstraintLayout = '2.0.0-beta2'
-    jetpackCoreKtx = '1.5.0-beta02'
+    jetpackCoreKtx = '1.5.0-beta03'
     jetpackLifecycle = '2.3.0'
-    jetpackLifecycleExtensions = '2.2.0'
     jetpackMaterial = '1.3.0'
     jetpackMultidex = '2.0.1'
     jetpackPalette = '28.0.0'
     jetpackRecyclerview = '1.2.0-beta02'
-    jetpackRoom = '2.3.0-beta02'
+    jetpackRoom = '2.3.0-beta03'
     jetpackViewPager = '1.1.0-alpha01'
     jetpackWorkerManager = '1.0.1'
     jsoup = '1.13.1'
