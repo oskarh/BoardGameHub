@@ -140,7 +140,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
-                        tools:text="2 - 5" />
+                        android:visibility="invisible"
+                        android:text="2 - 5" />
 
                     <Space
                         android:layout_width="0dp"

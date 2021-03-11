@@ -218,6 +218,7 @@ class MainActivity : BaseActivity() {
                                 main_content.showSnackbar(getString(R.string.import_board_games_empty), Snackbar.LENGTH_LONG)
                             is SuccessResponse<Int> ->
                                 main_content.showSnackbar(getString(R.string.import_successful_message, response.data), Snackbar.LENGTH_LONG)
+                            is LoadingResponse -> {}
                         }
                     }
         })
@@ -258,15 +259,27 @@ class MainActivity : BaseActivity() {
         }
         AppPreferences.startedAppCount = AppPreferences.startedAppCount + 1
 
-        if (AppPreferences.currentAppVersion != null && AppPreferences.currentAppVersion != BuildConfig.VERSION_NAME) {
-            Timber.d("App was updated to ${BuildConfig.VERSION_NAME}")
-            main_content.showActionSnackbar(getString(R.string.updated_to_version, BuildConfig.VERSION_NAME), R.string.changelog, UPDATE_MESSAGE_VISIBILITY_DURATION) {
-                Analytics.logEvent(EVENT_CHANGELOG_MESSAGE)
-                showChangelog(this)
-            }
+        if (isFirstOpenAfterAppUpdate()) {
+            handleAppUpdate()
         }
-        AppPreferences.currentAppVersion = BuildConfig.VERSION_NAME
     }
+
+    private fun handleAppUpdate() {
+        Timber.d("App was updated to ${BuildConfig.VERSION_NAME}")
+        AppPreferences.currentAppVersion = BuildConfig.VERSION_NAME
+        main_content.showActionSnackbar(
+            getString(
+                R.string.updated_to_version,
+                BuildConfig.VERSION_NAME
+            ), R.string.changelog, UPDATE_MESSAGE_VISIBILITY_DURATION
+        ) {
+            Analytics.logEvent(EVENT_CHANGELOG_MESSAGE)
+            showChangelog(this)
+        }
+    }
+
+    private fun isFirstOpenAfterAppUpdate() =
+        AppPreferences.currentAppVersion != null && AppPreferences.currentAppVersion != BuildConfig.VERSION_NAME
 
     private fun showFeed() {
         hideKeyboard()

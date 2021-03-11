@@ -12,10 +12,13 @@ import androidx.core.view.children
 import androidx.core.view.isVisible
 import androidx.core.widget.NestedScrollView
 import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.android.synthetic.main.ask_for_review_card.*
 import kotlinx.android.synthetic.main.feed_fragment.*
+import kotlinx.coroutines.flow.collect
+import kotlinx.coroutines.launch
 import se.oskarh.boardgamehub.R
 import se.oskarh.boardgamehub.analytics.Analytics
 import se.oskarh.boardgamehub.analytics.EVENT_ALL_DEFAULT_CHANNEL_VIDEOS
@@ -177,13 +180,16 @@ class FeedFragment : BaseFragment() {
                 KEY_DETAILS_SOURCE to DetailsSource.HOT_LIST.ordinal)
         }
         hot_try_again_button.setOnClickListener {
-            feedViewModel.loadHotGames()
+            feedViewModel.loadHotBoardGames()
         }
         top_category_title.text = getString(R.string.best_top_category, getString(AppPreferences.selectedTopCategory.categoryName))
         configure_top_category_button.setOnClickListener {
             SettingsFragment.changeTopCategory(activity) { topCategory->
                 top_category_title.text = getString(R.string.best_top_category, getString(topCategory.categoryName))
-                feedViewModel.loadTopGames()
+                // TODO: Change this?
+                lifecycleScope.launch {
+                    feedViewModel.loadTopGames()
+                }
             }
         }
         show_all_top_button.setOnClickListener {
@@ -195,7 +201,10 @@ class FeedFragment : BaseFragment() {
                 KEY_DETAILS_SOURCE to DetailsSource.TOP_LIST.ordinal)
         }
         top_try_again_button.setOnClickListener {
-            feedViewModel.loadTopGames()
+            // TODO: Change this?
+            lifecycleScope.launch {
+                feedViewModel.loadTopGames()
+            }
         }
 
         channel_title.text = getString(R.string.channel_videos, AppPreferences.enabledYouTubeChannel.channelName)
@@ -265,19 +274,21 @@ class FeedFragment : BaseFragment() {
                 updateHotGames(response.data)
             }
         })
-        feedViewModel.loadHotGames()
+        feedViewModel.loadHotBoardGames()
 
         fetchRedditPosts()
-        feedViewModel.topGames.observe(viewLifecycleOwner, { response ->
-            top_games_loading.visibleIf { response is LoadingResponse }
-            show_all_top_button.visibleIf(View.INVISIBLE) { response is SuccessResponse }
-            top_list.visibleIf(View.INVISIBLE) { response is SuccessResponse }
-            top_error_root.visibleIf { response is ErrorResponse }
-            if (response is SuccessResponse) {
-                updateTopGames(response.data)
+        // TODO: LiveData or StateFlow?
+        lifecycleScope.launchWhenResumed {
+            feedViewModel.loadTopGames().collect { response ->
+                top_games_loading.visibleIf { response is LoadingResponse }
+                show_all_top_button.visibleIf(View.INVISIBLE) { response is SuccessResponse }
+                top_list.visibleIf(View.INVISIBLE) { response is SuccessResponse }
+                top_error_root.visibleIf { response is ErrorResponse }
+                if (response is SuccessResponse) {
+                    updateTopGames(response.data)
+                }
             }
-        })
-        feedViewModel.loadTopGames()
+        }
         mainActivityViewModel.screenState.observe(viewLifecycleOwner, { screenState ->
             suggestion_overlay.visibleIf { screenState is ShowSuggestions }
             empty_suggestions_message.visibleIf { screenState is ShowSuggestions && !screenState.hasSuggestions }
@@ -290,6 +301,7 @@ class FeedFragment : BaseFragment() {
                     suggestionAdapter.updateResults(screenState.suggestions)
                     recentBoardGameAdapter.updateResults(screenState.recentBoardGames)
                 }
+                is ShowSearch -> {}
             }
         })
 
@@ -321,6 +333,7 @@ class FeedFragment : BaseFragment() {
                 }
                 is EmptyResponse -> Analytics.logEvent(EVENT_SEARCH_RESULTS_EMPTY)
                 is ErrorResponse -> Analytics.logEvent(EVENT_SEARCH_ERROR)
+                is LoadingResponse -> {}
             }
             search_loading.visibleIf { response is LoadingResponse }
         })
@@ -420,6 +433,7 @@ class FeedFragment : BaseFragment() {
                     updateVideos(channelVideos.data)
                 }
                 is ErrorResponse -> Analytics.logEvent(EVENT_YOUTUBE_SEARCH_ERROR)
+                is EmptyResponse, is LoadingResponse -> {}
             }
         })
     }

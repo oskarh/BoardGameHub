@@ -5,10 +5,11 @@ import androidx.lifecycle.MediatorLiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Transformations
 import androidx.lifecycle.ViewModel
-import androidx.lifecycle.liveData
 import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 import se.oskarh.boardgamehub.api.HotType
 import se.oskarh.boardgamehub.api.TopCategory
 import se.oskarh.boardgamehub.api.model.reddit.SubredditResponse
@@ -43,30 +44,18 @@ class FeedViewModel @Inject constructor(
     private var hotStream: LiveData<ApiResponse<List<RankedBoardGame>>> = MutableLiveData()
 
     // TODO: Make a custom LiveData / Flow implementation with the refresh logic
-    fun loadHotGames(hotType: HotType = HotType.BOARDGAME) {
+    fun loadHotBoardGames(hotType: HotType = HotType.BOARDGAME) {
         _hotGames.removeSource(hotStream)
-        hotStream = finderRepository.hotTopics(hotType)
+        hotStream = finderRepository.hotBoardGames(hotType)
         _hotGames.addSource(hotStream) { hotResponse ->
             _hotGames.value = hotResponse
         }
     }
 
-    private val _topGames = MediatorLiveData<ApiResponse<List<RankedBoardGame>>>()
-
-    val topGames: LiveData<ApiResponse<List<RankedBoardGame>>> = _topGames
-
-    private var topStream: LiveData<ApiResponse<List<RankedBoardGame>>> = MutableLiveData()
-
-    // TODO: Make a custom LiveData / Flow implementation with the refresh logic
-    fun loadTopGames(topCategory: TopCategory = AppPreferences.selectedTopCategory) {
-        _topGames.removeSource(topStream)
-        topStream = liveData(Dispatchers.IO) {
-            emitSource(topGamesRepository.findTopGames(topCategory))
+    suspend fun loadTopGames(topCategory: TopCategory = AppPreferences.selectedTopCategory): StateFlow<ApiResponse<List<RankedBoardGame>>> =
+        withContext(Dispatchers.IO){
+            topGamesRepository.findTopGames(topCategory)
         }
-        _topGames.addSource(topStream) { topResponse ->
-            _topGames.value = topResponse
-        }
-    }
 
     private val _redditPosts = MediatorLiveData<ApiResponse<SubredditResponse>>()
 

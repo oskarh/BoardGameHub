@@ -37,6 +37,7 @@ import se.oskarh.boardgamehub.repository.SuccessResponse
 import se.oskarh.boardgamehub.util.COULD_NOT_PARSE_DEFAULT
 import se.oskarh.boardgamehub.util.DetailedRankFormatter
 import se.oskarh.boardgamehub.util.PRIMARY
+import se.oskarh.boardgamehub.util.PUBLICATION_YEAR_UNKNOWN
 import se.oskarh.boardgamehub.util.RankFormatter
 import se.oskarh.boardgamehub.util.ignoredCharacters
 import se.oskarh.boardgamehub.util.nonDigitsRegex
@@ -82,9 +83,9 @@ fun Activity.hideKeyboard() {
     }
 }
 
-fun String.extractInteger(start: String, end: String): Int? {
-    return substringAfter(start, "")
-        .substringBefore(end)
+fun String.extractInteger(startDelimiter: String, endDelimiter: String): Int? {
+    return substringAfter(startDelimiter)
+        .substringBefore(endDelimiter)
         .toIntOrNull()
 }
 
@@ -210,3 +211,6 @@ fun String?.formatRating(isDetailed: Boolean = false) =
 fun Intent.requireString(key: String) = getStringExtra(key)!!
 
 fun RecyclerView.Adapter<*>.isEmpty() = itemCount == 0
+
+val BoardGame.hasPublicationYear: Boolean
+    get() = yearPublished != PUBLICATION_YEAR_UNKNOWN

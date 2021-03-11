@@ -79,7 +79,8 @@
                     android:layout_marginStart="8dp"
                     android:ellipsize="end"
                     android:maxLines="1"
-                    tools:text="2 - 5" />
+                    android:visibility="invisible"
+                    android:text="2 - 5" />
 
             </LinearLayout>
         </LinearLayout>

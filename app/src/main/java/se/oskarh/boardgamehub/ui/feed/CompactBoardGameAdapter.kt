@@ -50,6 +50,7 @@ class CompactBoardGameAdapter(
 
     fun updateDetails(updatedBoardGame: BoardGame) {
         Timber.d("Updating details to ${updatedBoardGame.primaryName()}")
+        // TODO: Animate this in if not already visible?
         boardGames.take(MAX_VISIBLE_FEED_GAMES)
             .indexOfFirst { it.boardGame.id == updatedBoardGame.id }
             .takeUnless { it == -1 }
@@ -75,6 +76,7 @@ class CompactBoardGameAdapter(
         }
 
         fun updateDetails(boardGame: BoardGame) {
+            // TODO: Animate this in if not already visible?
             itemView.boardgame_image.loadImage(boardGame.thumbnailUrl)
             itemView.rating_text.text = boardGame.formattedRating()
             itemView.rating_text.visible()

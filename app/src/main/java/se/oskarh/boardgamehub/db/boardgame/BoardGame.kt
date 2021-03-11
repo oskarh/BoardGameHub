@@ -16,6 +16,7 @@ import se.oskarh.boardgamehub.util.CACHE_AGING_BOARDGAMES
 import se.oskarh.boardgamehub.util.CACHE_NEW_BOARDGAMES
 import se.oskarh.boardgamehub.util.CACHE_OLD_BOARDGAMES
 import se.oskarh.boardgamehub.util.COULD_NOT_PARSE_DEFAULT
+import se.oskarh.boardgamehub.util.COULD_NOT_PARSE_PLAYERS_DEFAULT
 import se.oskarh.boardgamehub.util.MAXIMUM_VISIBLE_EXPANSIONS
 import se.oskarh.boardgamehub.util.PRIMARY
 import se.oskarh.boardgamehub.util.UNCATEGORIZED_BOARDGAME
@@ -147,7 +148,7 @@ data class BoardGame(
 
     fun playersFormatted() =
         if (minPlayers == maxPlayers) {
-            minPlayers.takeUnless { it == null || it == 0 }?.toString() ?: COULD_NOT_PARSE_DEFAULT
+            minPlayers.takeUnless { it == null || it == 0 }?.toString() ?: COULD_NOT_PARSE_PLAYERS_DEFAULT
         } else {
             "$minPlayers - $maxPlayers"
         }
@@ -161,7 +162,7 @@ data class BoardGame(
 
     fun hasStatistics() = statistics != null
 
-    fun hasPlayers() = playersFormatted() != COULD_NOT_PARSE_DEFAULT
+    fun hasPlayers() = playersFormatted() != COULD_NOT_PARSE_PLAYERS_DEFAULT
 
     fun hasPlayingTime() = playingTimeFormatted() != COULD_NOT_PARSE_DEFAULT
 
