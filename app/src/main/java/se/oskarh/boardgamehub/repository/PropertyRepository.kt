@@ -28,7 +28,7 @@ class PropertyRepository @Inject constructor(
     private val propertyRepository: BoardGamePropertyRepository) {
 
     // TODO: Rename
-    fun findNewProperty(id: Int, propertyType: PropertyType): LiveData<ApiResponse<BoardGameProperty>> {
+    fun findProperty(id: Int, propertyType: PropertyType): LiveData<ApiResponse<BoardGameProperty>> {
         return MediatorLiveData<ApiResponse<BoardGameProperty>>().apply {
             value = LoadingResponse()
             GlobalScope.launch(Dispatchers.IO) {
@@ -39,7 +39,7 @@ class PropertyRepository @Inject constructor(
                 } else {
                     Timber.d("Could find NOT property details in cache $id, in flight requests now contain")
                     launch(Dispatchers.Main) {
-                        addSource(findMyProperty(id, propertyType)) { apiResponse ->
+                        addSource(getProperty(id, propertyType)) { apiResponse ->
                             Timber.d("Got returned details")
                             value = apiResponse
 //                            value = apiResponse.mapResponse({ it.toPropertyData() })
@@ -56,7 +56,7 @@ class PropertyRepository @Inject constructor(
     }
 
     // TODO: Rename
-    private fun findMyProperty(id: Int, propertyType: PropertyType): LiveData<ApiResponse<BoardGameProperty>> {
+    private fun getProperty(id: Int, propertyType: PropertyType): LiveData<ApiResponse<BoardGameProperty>> {
         return when (propertyType) {
             PropertyType.ARTIST -> boardGameGeekService.getArtist(id).map {
                 it.mapResponse({
@@ -75,13 +75,13 @@ class PropertyRepository @Inject constructor(
             }
             PropertyType.BOARD_GAME_MECHANIC, PropertyType.BOARD_GAME_CATEGORY, PropertyType.TYPE ->
                 liveData(Dispatchers.IO) {
-                    emitSource(findProperty(id, propertyType))
+                    emitSource(scrapeProperty(id, propertyType))
                 }
         }
     }
 
     @WorkerThread
-    fun findProperty(categoryId: Int, propertyType: PropertyType): LiveData<ApiResponse<BoardGameProperty>> {
+    fun scrapeProperty(categoryId: Int, propertyType: PropertyType): LiveData<ApiResponse<BoardGameProperty>> {
         return MutableLiveData<ApiResponse<BoardGameProperty>>().apply {
             postValue(LoadingResponse())
 
@@ -104,12 +104,13 @@ class PropertyRepository @Inject constructor(
             .get()
 
         val name = categoryDocument
-            .select("div#module_2")
-            .select("div.geekitem_name")
-            .text()
+            .select("meta[name=\"title\"]")
+            .attr("content")
 
-        val description = categoryDocument.select("div#editdesc").html()
+        val description = categoryDocument
+            .select("meta[name=\"description\"]")
+            .attr("content")
+
         return BoardGameProperty(propertyId, name, description, propertyType)
-//        return BoardGamePropertyData(name, description)
     }
 }
